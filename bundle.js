@@ -92,7 +92,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".modal-container {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  width: 100vw;\r\n  height: 100vh;\r\n  position: fixed;\r\n  top: 0;\r\n  left: 0;\r\n}\r\n\r\n.modal-container.hide {\r\n  display: none;\r\n}\r\n\r\n.dimmer {\r\n  position: absolute;\r\n  width: 100%;\r\n  height: 100%;\r\n  background: rgba(0, 0, 0, 0.5);\r\n}\r\n\r\n#result-label {\r\n  margin-bottom: 20px;\r\n}\r\n\r\n.search-modal {\r\n  position: relative;\r\n  width: 1080px;\r\n  height: 727px;\r\n  background: #ffffff;\r\n  border: 1px solid rgba(0, 0, 0, 0.12);\r\n  border-radius: 4px;\r\n  padding: 50px 30px 32px 30px;\r\n}\r\n\r\n.search-modal__title {\r\n  font-weight: bold;\r\n  font-size: 34px;\r\n  line-height: 36px;\r\n  text-align: center;\r\n  margin-bottom: 40px;\r\n}\r\n\r\n.search-input {\r\n  display: flex;\r\n  justify-content: center;\r\n  margin-bottom: 40px;\r\n}\r\n\r\n.search-input__keyword {\r\n  width: 400px;\r\n  height: 36px;\r\n  margin-right: 20px;\r\n  padding: 4px 8px;\r\n  border: 1px solid #b4b4b4;\r\n  border-radius: 4px;\r\n}\r\n\r\n.search-input__keyword::placeholder {\r\n  color: #8b8b8b;\r\n  font-size: 16px;\r\n}\r\n\r\n.search-input__search-button {\r\n  width: 72px;\r\n  height: 36px;\r\n  background: #00bcd4;\r\n  color: #ffffff;\r\n}\r\n\r\n#no-result {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  justify-content: center;\r\n}\r\n\r\n.no-result__image {\r\n  width: 190px;\r\n  height: 140px;\r\n  margin-bottom: 45px;\r\n}\r\n\r\n.no-result__description {\r\n  font-size: 16px;\r\n  line-height: 200%;\r\n  text-align: center;\r\n  letter-spacing: 0.5px;\r\n}\r\n\r\n#video-list {\r\n  width: 1040px;\r\n  height: 493px;\r\n  display: flex;\r\n  flex-direction: row;\r\n  flex-wrap: wrap;\r\n  gap: 32px 20px;\r\n  overflow-y: auto;\r\n}\r\n\r\n.video-item-container {\r\n  width: 240px;\r\n}\r\n\r\n.video-item {\r\n  position: relative;\r\n  width: 100%;\r\n  height: 255px;\r\n}\r\n\r\n.video-item__thumbnail {\r\n  width: 100%;\r\n  height: 135px;\r\n}\r\n\r\n.video-item__title {\r\n  font-weight: bold;\r\n  font-size: 16px;\r\n  line-height: 24px;\r\n  letter-spacing: 0.5px;\r\n  white-space: nowrap;\r\n  overflow: hidden;\r\n  text-overflow: ellipsis;\r\n  margin: 4px 0;\r\n}\r\n\r\n.video-item__channel-name {\r\n  font-size: 16px;\r\n  line-height: 24px;\r\n  letter-spacing: 0.5px;\r\n  white-space: nowrap;\r\n  overflow: hidden;\r\n  text-overflow: ellipsis;\r\n}\r\n\r\n.video-item__published-date {\r\n  font-size: 12px;\r\n  line-height: 24px;\r\n  letter-spacing: 0.5px;\r\n}\r\n\r\n.video-item__save-button {\r\n  position: relative;\r\n  width: 80px;\r\n  height: 36px;\r\n  background: #f9f9f9;\r\n  margin-top: 4px;\r\n  float: right;\r\n}\r\n\r\n.video-item__save-button:hover {\r\n  background: #efefef;\r\n}\r\n\r\n.skeleton {\r\n  width: 236px;\r\n}\r\n\r\n.skeleton .image,\r\n.skeleton .line {\r\n  background-image: linear-gradient(90deg, #e0e0e0 0px, #ededed 30px, #e0e0e0 60px);\r\n  animation: refresh 2s infinite ease-out;\r\n}\r\n\r\n.skeleton .image {\r\n  height: 150px;\r\n}\r\n\r\n.skeleton .line {\r\n  height: 16px;\r\n}\r\n\r\n.skeleton .line:last-child {\r\n  width: 80%;\r\n}\r\n\r\n@keyframes refresh {\r\n  0% {\r\n    background-position: calc(-100px);\r\n  }\r\n  40%,\r\n  100% {\r\n    background-position: 320px;\r\n  }\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/css/modal.css"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,mBAAmB;EACnB,uBAAuB;EACvB,YAAY;EACZ,aAAa;EACb,eAAe;EACf,MAAM;EACN,OAAO;AACT;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,kBAAkB;EAClB,WAAW;EACX,YAAY;EACZ,8BAA8B;AAChC;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,kBAAkB;EAClB,aAAa;EACb,aAAa;EACb,mBAAmB;EACnB,qCAAqC;EACrC,kBAAkB;EAClB,4BAA4B;AAC9B;;AAEA;EACE,iBAAiB;EACjB,eAAe;EACf,iBAAiB;EACjB,kBAAkB;EAClB,mBAAmB;AACrB;;AAEA;EACE,aAAa;EACb,uBAAuB;EACvB,mBAAmB;AACrB;;AAEA;EACE,YAAY;EACZ,YAAY;EACZ,kBAAkB;EAClB,gBAAgB;EAChB,yBAAyB;EACzB,kBAAkB;AACpB;;AAEA;EACE,cAAc;EACd,eAAe;AACjB;;AAEA;EACE,WAAW;EACX,YAAY;EACZ,mBAAmB;EACnB,cAAc;AAChB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,uBAAuB;AACzB;;AAEA;EACE,YAAY;EACZ,aAAa;EACb,mBAAmB;AACrB;;AAEA;EACE,eAAe;EACf,iBAAiB;EACjB,kBAAkB;EAClB,qBAAqB;AACvB;;AAEA;EACE,aAAa;EACb,aAAa;EACb,aAAa;EACb,mBAAmB;EACnB,eAAe;EACf,cAAc;EACd,gBAAgB;AAClB;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,kBAAkB;EAClB,WAAW;EACX,aAAa;AACf;;AAEA;EACE,WAAW;EACX,aAAa;AACf;;AAEA;EACE,iBAAiB;EACjB,eAAe;EACf,iBAAiB;EACjB,qBAAqB;EACrB,mBAAmB;EACnB,gBAAgB;EAChB,uBAAuB;EACvB,aAAa;AACf;;AAEA;EACE,eAAe;EACf,iBAAiB;EACjB,qBAAqB;EACrB,mBAAmB;EACnB,gBAAgB;EAChB,uBAAuB;AACzB;;AAEA;EACE,eAAe;EACf,iBAAiB;EACjB,qBAAqB;AACvB;;AAEA;EACE,kBAAkB;EAClB,WAAW;EACX,YAAY;EACZ,mBAAmB;EACnB,eAAe;EACf,YAAY;AACd;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,YAAY;AACd;;AAEA;;EAEE,iFAAiF;EACjF,uCAAuC;AACzC;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,UAAU;AACZ;;AAEA;EACE;IACE,iCAAiC;EACnC;EACA;;IAEE,0BAA0B;EAC5B;AACF","sourcesContent":[".modal-container {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  width: 100vw;\r\n  height: 100vh;\r\n  position: fixed;\r\n  top: 0;\r\n  left: 0;\r\n}\r\n\r\n.modal-container.hide {\r\n  display: none;\r\n}\r\n\r\n.dimmer {\r\n  position: absolute;\r\n  width: 100%;\r\n  height: 100%;\r\n  background: rgba(0, 0, 0, 0.5);\r\n}\r\n\r\n#result-label {\r\n  margin-bottom: 20px;\r\n}\r\n\r\n.search-modal {\r\n  position: relative;\r\n  width: 1080px;\r\n  height: 727px;\r\n  background: #ffffff;\r\n  border: 1px solid rgba(0, 0, 0, 0.12);\r\n  border-radius: 4px;\r\n  padding: 50px 30px 32px 30px;\r\n}\r\n\r\n.search-modal__title {\r\n  font-weight: bold;\r\n  font-size: 34px;\r\n  line-height: 36px;\r\n  text-align: center;\r\n  margin-bottom: 40px;\r\n}\r\n\r\n.search-input {\r\n  display: flex;\r\n  justify-content: center;\r\n  margin-bottom: 40px;\r\n}\r\n\r\n.search-input__keyword {\r\n  width: 400px;\r\n  height: 36px;\r\n  margin-right: 20px;\r\n  padding: 4px 8px;\r\n  border: 1px solid #b4b4b4;\r\n  border-radius: 4px;\r\n}\r\n\r\n.search-input__keyword::placeholder {\r\n  color: #8b8b8b;\r\n  font-size: 16px;\r\n}\r\n\r\n.search-input__search-button {\r\n  width: 72px;\r\n  height: 36px;\r\n  background: #00bcd4;\r\n  color: #ffffff;\r\n}\r\n\r\n#no-result {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  justify-content: center;\r\n}\r\n\r\n.no-result__image {\r\n  width: 190px;\r\n  height: 140px;\r\n  margin-bottom: 45px;\r\n}\r\n\r\n.no-result__description {\r\n  font-size: 16px;\r\n  line-height: 200%;\r\n  text-align: center;\r\n  letter-spacing: 0.5px;\r\n}\r\n\r\n#video-list {\r\n  width: 1040px;\r\n  height: 493px;\r\n  display: flex;\r\n  flex-direction: row;\r\n  flex-wrap: wrap;\r\n  gap: 32px 20px;\r\n  overflow-y: auto;\r\n}\r\n\r\n.video-item-container {\r\n  width: 240px;\r\n}\r\n\r\n.video-item {\r\n  position: relative;\r\n  width: 100%;\r\n  height: 255px;\r\n}\r\n\r\n.video-item__thumbnail {\r\n  width: 100%;\r\n  height: 135px;\r\n}\r\n\r\n.video-item__title {\r\n  font-weight: bold;\r\n  font-size: 16px;\r\n  line-height: 24px;\r\n  letter-spacing: 0.5px;\r\n  white-space: nowrap;\r\n  overflow: hidden;\r\n  text-overflow: ellipsis;\r\n  margin: 4px 0;\r\n}\r\n\r\n.video-item__channel-name {\r\n  font-size: 16px;\r\n  line-height: 24px;\r\n  letter-spacing: 0.5px;\r\n  white-space: nowrap;\r\n  overflow: hidden;\r\n  text-overflow: ellipsis;\r\n}\r\n\r\n.video-item__published-date {\r\n  font-size: 12px;\r\n  line-height: 24px;\r\n  letter-spacing: 0.5px;\r\n}\r\n\r\n.video-item__save-button {\r\n  position: relative;\r\n  width: 80px;\r\n  height: 36px;\r\n  background: #f9f9f9;\r\n  margin-top: 4px;\r\n  float: right;\r\n}\r\n\r\n.video-item__save-button:hover {\r\n  background: #efefef;\r\n}\r\n\r\n.skeleton {\r\n  width: 236px;\r\n}\r\n\r\n.skeleton .image,\r\n.skeleton .line {\r\n  background-image: linear-gradient(90deg, #e0e0e0 0px, #ededed 30px, #e0e0e0 60px);\r\n  animation: refresh 2s infinite ease-out;\r\n}\r\n\r\n.skeleton .image {\r\n  height: 150px;\r\n}\r\n\r\n.skeleton .line {\r\n  height: 16px;\r\n}\r\n\r\n.skeleton .line:last-child {\r\n  width: 80%;\r\n}\r\n\r\n@keyframes refresh {\r\n  0% {\r\n    background-position: calc(-100px);\r\n  }\r\n  40%,\r\n  100% {\r\n    background-position: 320px;\r\n  }\r\n}\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".modal-container {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  width: 100vw;\r\n  height: 100vh;\r\n  position: fixed;\r\n  top: 0;\r\n  left: 0;\r\n}\r\n\r\n.modal-container.hide {\r\n  display: none;\r\n}\r\n\r\n.dimmer {\r\n  position: absolute;\r\n  width: 100%;\r\n  height: 100%;\r\n  background: rgba(0, 0, 0, 0.5);\r\n}\r\n\r\n#result-label {\r\n  margin-bottom: 20px;\r\n}\r\n\r\n.search-modal {\r\n  position: relative;\r\n  width: 1080px;\r\n  height: 727px;\r\n  background: #ffffff;\r\n  border: 1px solid rgba(0, 0, 0, 0.12);\r\n  border-radius: 4px;\r\n  padding: 50px 30px 32px 30px;\r\n}\r\n\r\n.search-modal__title {\r\n  font-weight: bold;\r\n  font-size: 34px;\r\n  line-height: 36px;\r\n  text-align: center;\r\n  margin-bottom: 40px;\r\n}\r\n\r\n.search-input {\r\n  display: flex;\r\n  justify-content: center;\r\n  margin-bottom: 40px;\r\n}\r\n\r\n.search-input__keyword {\r\n  width: 400px;\r\n  height: 36px;\r\n  margin-right: 20px;\r\n  padding: 4px 8px;\r\n  border: 1px solid #b4b4b4;\r\n  border-radius: 4px;\r\n}\r\n\r\n.search-input__keyword::placeholder {\r\n  color: #8b8b8b;\r\n  font-size: 16px;\r\n}\r\n\r\n.search-input__search-button {\r\n  width: 72px;\r\n  height: 36px;\r\n  background: #00bcd4;\r\n  color: #ffffff;\r\n}\r\n\r\n#no-result {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  justify-content: center;\r\n}\r\n\r\n.no-result__image {\r\n  width: 190px;\r\n  height: 140px;\r\n  margin-bottom: 45px;\r\n}\r\n\r\n.no-result__description {\r\n  font-size: 16px;\r\n  line-height: 200%;\r\n  text-align: center;\r\n  letter-spacing: 0.5px;\r\n}\r\n\r\n#video-list {\r\n  width: 1040px;\r\n  height: 479px;\r\n  display: flex;\r\n  flex-direction: row;\r\n  flex-wrap: wrap;\r\n  gap: 62px 20px;\r\n  overflow-y: auto;\r\n}\r\n\r\n.video-item-container {\r\n  height: 300px;\r\n  width: 240px;\r\n}\r\n\r\n.video-item {\r\n  position: relative;\r\n  width: 100%;\r\n  height: 70%;\r\n}\r\n\r\n.video-item__thumbnail {\r\n  width: 100%;\r\n  height: 135px;\r\n}\r\n\r\n.video-item__title {\r\n  font-weight: bold;\r\n  font-size: 17px;\r\n  line-height: 24px;\r\n  letter-spacing: 0.5px;\r\n  white-space: nowrap;\r\n  overflow: hidden;\r\n  text-overflow: ellipsis;\r\n  margin: 4px 0;\r\n}\r\n\r\n.video-item__channel-name {\r\n  font-size: 13px;\r\n  line-height: 24px;\r\n  letter-spacing: 0.5px;\r\n  white-space: nowrap;\r\n  overflow: hidden;\r\n  text-overflow: ellipsis;\r\n}\r\n\r\n.video-item__published-date {\r\n  font-size: 12px;\r\n  line-height: 23px;\r\n  letter-spacing: 0.5px;\r\n}\r\n\r\n.video-item__save-button {\r\n  position: relative;\r\n  width: 70px;\r\n  height: 30px;\r\n  background: #f9f9f9;\r\n  float: right;\r\n}\r\n\r\n.video-item__save-button:hover {\r\n  background: #efefef;\r\n}\r\n\r\n.video-item__save-button.hide {\r\n  display: none;\r\n}\r\n\r\n.skeleton {\r\n  height: 280px;\r\n  width: 240px;\r\n}\r\n\r\n.skeleton .image,\r\n.skeleton .line,\r\n.skeleton .skeleton-button {\r\n  background-image: linear-gradient(90deg, #e0e0e0 0px, #ededed 30px, #e0e0e0 60px);\r\n  animation: refresh 2s infinite ease-out;\r\n}\r\n\r\n.skeleton .image {\r\n  height: 70%;\r\n}\r\n\r\n.skeleton .line {\r\n  height: 20px;\r\n  margin: 2px;\r\n}\r\n\r\n.skeleton .skeleton-button {\r\n  width: 25%;\r\n  height: 25px;\r\n  float: right;\r\n}\r\n\r\n@keyframes refresh {\r\n  0% {\r\n    background-position: calc(-100px);\r\n  }\r\n  40%,\r\n  100% {\r\n    background-position: 320px;\r\n  }\r\n}\r\n\r\n#close-modal-button {\r\n  float: right;\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/css/modal.css"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,mBAAmB;EACnB,uBAAuB;EACvB,YAAY;EACZ,aAAa;EACb,eAAe;EACf,MAAM;EACN,OAAO;AACT;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,kBAAkB;EAClB,WAAW;EACX,YAAY;EACZ,8BAA8B;AAChC;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,kBAAkB;EAClB,aAAa;EACb,aAAa;EACb,mBAAmB;EACnB,qCAAqC;EACrC,kBAAkB;EAClB,4BAA4B;AAC9B;;AAEA;EACE,iBAAiB;EACjB,eAAe;EACf,iBAAiB;EACjB,kBAAkB;EAClB,mBAAmB;AACrB;;AAEA;EACE,aAAa;EACb,uBAAuB;EACvB,mBAAmB;AACrB;;AAEA;EACE,YAAY;EACZ,YAAY;EACZ,kBAAkB;EAClB,gBAAgB;EAChB,yBAAyB;EACzB,kBAAkB;AACpB;;AAEA;EACE,cAAc;EACd,eAAe;AACjB;;AAEA;EACE,WAAW;EACX,YAAY;EACZ,mBAAmB;EACnB,cAAc;AAChB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,uBAAuB;AACzB;;AAEA;EACE,YAAY;EACZ,aAAa;EACb,mBAAmB;AACrB;;AAEA;EACE,eAAe;EACf,iBAAiB;EACjB,kBAAkB;EAClB,qBAAqB;AACvB;;AAEA;EACE,aAAa;EACb,aAAa;EACb,aAAa;EACb,mBAAmB;EACnB,eAAe;EACf,cAAc;EACd,gBAAgB;AAClB;;AAEA;EACE,aAAa;EACb,YAAY;AACd;;AAEA;EACE,kBAAkB;EAClB,WAAW;EACX,WAAW;AACb;;AAEA;EACE,WAAW;EACX,aAAa;AACf;;AAEA;EACE,iBAAiB;EACjB,eAAe;EACf,iBAAiB;EACjB,qBAAqB;EACrB,mBAAmB;EACnB,gBAAgB;EAChB,uBAAuB;EACvB,aAAa;AACf;;AAEA;EACE,eAAe;EACf,iBAAiB;EACjB,qBAAqB;EACrB,mBAAmB;EACnB,gBAAgB;EAChB,uBAAuB;AACzB;;AAEA;EACE,eAAe;EACf,iBAAiB;EACjB,qBAAqB;AACvB;;AAEA;EACE,kBAAkB;EAClB,WAAW;EACX,YAAY;EACZ,mBAAmB;EACnB,YAAY;AACd;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,aAAa;EACb,YAAY;AACd;;AAEA;;;EAGE,iFAAiF;EACjF,uCAAuC;AACzC;;AAEA;EACE,WAAW;AACb;;AAEA;EACE,YAAY;EACZ,WAAW;AACb;;AAEA;EACE,UAAU;EACV,YAAY;EACZ,YAAY;AACd;;AAEA;EACE;IACE,iCAAiC;EACnC;EACA;;IAEE,0BAA0B;EAC5B;AACF;;AAEA;EACE,YAAY;AACd","sourcesContent":[".modal-container {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  width: 100vw;\r\n  height: 100vh;\r\n  position: fixed;\r\n  top: 0;\r\n  left: 0;\r\n}\r\n\r\n.modal-container.hide {\r\n  display: none;\r\n}\r\n\r\n.dimmer {\r\n  position: absolute;\r\n  width: 100%;\r\n  height: 100%;\r\n  background: rgba(0, 0, 0, 0.5);\r\n}\r\n\r\n#result-label {\r\n  margin-bottom: 20px;\r\n}\r\n\r\n.search-modal {\r\n  position: relative;\r\n  width: 1080px;\r\n  height: 727px;\r\n  background: #ffffff;\r\n  border: 1px solid rgba(0, 0, 0, 0.12);\r\n  border-radius: 4px;\r\n  padding: 50px 30px 32px 30px;\r\n}\r\n\r\n.search-modal__title {\r\n  font-weight: bold;\r\n  font-size: 34px;\r\n  line-height: 36px;\r\n  text-align: center;\r\n  margin-bottom: 40px;\r\n}\r\n\r\n.search-input {\r\n  display: flex;\r\n  justify-content: center;\r\n  margin-bottom: 40px;\r\n}\r\n\r\n.search-input__keyword {\r\n  width: 400px;\r\n  height: 36px;\r\n  margin-right: 20px;\r\n  padding: 4px 8px;\r\n  border: 1px solid #b4b4b4;\r\n  border-radius: 4px;\r\n}\r\n\r\n.search-input__keyword::placeholder {\r\n  color: #8b8b8b;\r\n  font-size: 16px;\r\n}\r\n\r\n.search-input__search-button {\r\n  width: 72px;\r\n  height: 36px;\r\n  background: #00bcd4;\r\n  color: #ffffff;\r\n}\r\n\r\n#no-result {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  justify-content: center;\r\n}\r\n\r\n.no-result__image {\r\n  width: 190px;\r\n  height: 140px;\r\n  margin-bottom: 45px;\r\n}\r\n\r\n.no-result__description {\r\n  font-size: 16px;\r\n  line-height: 200%;\r\n  text-align: center;\r\n  letter-spacing: 0.5px;\r\n}\r\n\r\n#video-list {\r\n  width: 1040px;\r\n  height: 479px;\r\n  display: flex;\r\n  flex-direction: row;\r\n  flex-wrap: wrap;\r\n  gap: 62px 20px;\r\n  overflow-y: auto;\r\n}\r\n\r\n.video-item-container {\r\n  height: 300px;\r\n  width: 240px;\r\n}\r\n\r\n.video-item {\r\n  position: relative;\r\n  width: 100%;\r\n  height: 70%;\r\n}\r\n\r\n.video-item__thumbnail {\r\n  width: 100%;\r\n  height: 135px;\r\n}\r\n\r\n.video-item__title {\r\n  font-weight: bold;\r\n  font-size: 17px;\r\n  line-height: 24px;\r\n  letter-spacing: 0.5px;\r\n  white-space: nowrap;\r\n  overflow: hidden;\r\n  text-overflow: ellipsis;\r\n  margin: 4px 0;\r\n}\r\n\r\n.video-item__channel-name {\r\n  font-size: 13px;\r\n  line-height: 24px;\r\n  letter-spacing: 0.5px;\r\n  white-space: nowrap;\r\n  overflow: hidden;\r\n  text-overflow: ellipsis;\r\n}\r\n\r\n.video-item__published-date {\r\n  font-size: 12px;\r\n  line-height: 23px;\r\n  letter-spacing: 0.5px;\r\n}\r\n\r\n.video-item__save-button {\r\n  position: relative;\r\n  width: 70px;\r\n  height: 30px;\r\n  background: #f9f9f9;\r\n  float: right;\r\n}\r\n\r\n.video-item__save-button:hover {\r\n  background: #efefef;\r\n}\r\n\r\n.video-item__save-button.hide {\r\n  display: none;\r\n}\r\n\r\n.skeleton {\r\n  height: 280px;\r\n  width: 240px;\r\n}\r\n\r\n.skeleton .image,\r\n.skeleton .line,\r\n.skeleton .skeleton-button {\r\n  background-image: linear-gradient(90deg, #e0e0e0 0px, #ededed 30px, #e0e0e0 60px);\r\n  animation: refresh 2s infinite ease-out;\r\n}\r\n\r\n.skeleton .image {\r\n  height: 70%;\r\n}\r\n\r\n.skeleton .line {\r\n  height: 20px;\r\n  margin: 2px;\r\n}\r\n\r\n.skeleton .skeleton-button {\r\n  width: 25%;\r\n  height: 25px;\r\n  float: right;\r\n}\r\n\r\n@keyframes refresh {\r\n  0% {\r\n    background-position: calc(-100px);\r\n  }\r\n  40%,\r\n  100% {\r\n    background-position: 320px;\r\n  }\r\n}\r\n\r\n#close-modal-button {\r\n  float: right;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1991,14 +1991,24 @@ var SearchModal = /*#__PURE__*/function () {
         return;
       }
 
-      var proviousLocalStorage = (0,_utils_localStorage_js__WEBPACK_IMPORTED_MODULE_8__.getLocalStorage)('videoId');
+      var tempVideoIdsInLocalStorage = (0,_utils_localStorage_js__WEBPACK_IMPORTED_MODULE_8__.getVideoIdFromLocalStorage)();
 
-      if (_this.canSaveVideoItems(proviousLocalStorage, e.target)) {
-        proviousLocalStorage.push(e.target.id);
-        e.target.remove();
+      if (_this.canSaveVideoIdInLocalStorage(e.target)) {
+        tempVideoIdsInLocalStorage.push(e.target.id);
+        e.target.style.display = 'none';
       }
 
-      (0,_utils_localStorage_js__WEBPACK_IMPORTED_MODULE_8__.saveLocalStorage)('videoId', proviousLocalStorage);
+      (0,_utils_localStorage_js__WEBPACK_IMPORTED_MODULE_8__.saveVideoIdToLocalStorage)(tempVideoIdsInLocalStorage);
+    });
+
+    (0,_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_5__["default"])(this, "handleCloseButton", function () {
+      _this.modalContainer.classList.add('hide');
+    });
+
+    (0,_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_5__["default"])(this, "handleEnterKeyEvent", function (event) {
+      if (event.key === 'Enter') {
+        _this.searchButton.click();
+      }
     });
 
     this.modalContainer = document.getElementById('modal-container');
@@ -2007,8 +2017,13 @@ var SearchModal = /*#__PURE__*/function () {
     this.resultLabel = document.getElementById('result-label');
     this.noResultContainer = document.getElementById('no-result');
     this.searchButton = document.getElementById('search-button');
+    this.closeModalButton = document.getElementById('close-modal-button');
     this.searchButton.addEventListener('click', this.handleSearchButton);
     this.videoList.addEventListener('click', this.handleVideoItemSave);
+    this.closeModalButton.addEventListener('click', this.handleCloseButton);
+    this.searchInputKeyword.addEventListener('keyup', function (event) {
+      return _this.handleEnterKeyEvent(event);
+    });
   }
 
   (0,_babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_4__["default"])(SearchModal, [{
@@ -2073,8 +2088,13 @@ var SearchModal = /*#__PURE__*/function () {
   }, {
     key: "renderIframe",
     value: function renderIframe() {
+      var local = (0,_utils_localStorage_js__WEBPACK_IMPORTED_MODULE_8__.getVideoIdFromLocalStorage)();
       this.resultLabel.removeAttribute('hidden');
       this.videoList.insertAdjacentHTML('beforeend', this.videos.items.map(function (video) {
+        if (local.includes(video.id.videoId)) {
+          return (0,_utils_templates_js__WEBPACK_IMPORTED_MODULE_9__.makeIframeTemplate)(video, 'exist');
+        }
+
         return (0,_utils_templates_js__WEBPACK_IMPORTED_MODULE_9__.makeIframeTemplate)(video);
       }).join(''));
     }
@@ -2150,9 +2170,9 @@ var SearchModal = /*#__PURE__*/function () {
       this.intersectionObserver.disconnect();
     }
   }, {
-    key: "canSaveVideoItems",
-    value: function canSaveVideoItems(localStorage, target) {
-      return !localStorage.includes(target.id) && localStorage.length <= _const_consts_js__WEBPACK_IMPORTED_MODULE_10__.NUM.MAX_STORAGE_LENGTH;
+    key: "canSaveVideoIdInLocalStorage",
+    value: function canSaveVideoIdInLocalStorage(target) {
+      return !(0,_utils_localStorage_js__WEBPACK_IMPORTED_MODULE_8__.getVideoIdFromLocalStorage)().includes(target.id) && (0,_utils_localStorage_js__WEBPACK_IMPORTED_MODULE_8__.getVideoIdFromLocalStorage)().length <= _const_consts_js__WEBPACK_IMPORTED_MODULE_10__.NUM.MAX_STORAGE_LENGTH;
     }
   }]);
 
@@ -2209,7 +2229,6 @@ var fetchDataFromKeyword = /*#__PURE__*/function () {
     var pageToken,
         BASE_URL,
         res,
-        data,
         _args = arguments;
     return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1__.wrap(function _callee$(_context) {
       while (1) {
@@ -2223,33 +2242,28 @@ var fetchDataFromKeyword = /*#__PURE__*/function () {
 
           case 5:
             res = _context.sent;
-            _context.next = 8;
-            return res.json();
-
-          case 8:
-            data = _context.sent;
 
             if (res.ok) {
-              _context.next = 11;
+              _context.next = 8;
               break;
             }
 
             throw new Error("\uC5D0\uB7EC\uCF54\uB4DC: ".concat(res.status));
 
-          case 11:
-            return _context.abrupt("return", data);
+          case 8:
+            return _context.abrupt("return", res.json());
 
-          case 14:
-            _context.prev = 14;
+          case 11:
+            _context.prev = 11;
             _context.t0 = _context["catch"](2);
             console.error(_context.t0);
 
-          case 17:
+          case 14:
           case "end":
             return _context.stop();
         }
       }
-    }, _callee, null, [[2, 14]]);
+    }, _callee, null, [[2, 11]]);
   }));
 
   return function fetchDataFromKeyword(_x) {
@@ -2287,13 +2301,21 @@ var changeDateFormat = function changeDateFormat(date) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "getLocalStorage": () => (/* binding */ getLocalStorage),
-/* harmony export */   "saveLocalStorage": () => (/* binding */ saveLocalStorage)
+/* harmony export */   "getVideoIdFromLocalStorage": () => (/* binding */ getVideoIdFromLocalStorage),
+/* harmony export */   "saveLocalStorage": () => (/* binding */ saveLocalStorage),
+/* harmony export */   "saveVideoIdToLocalStorage": () => (/* binding */ saveVideoIdToLocalStorage)
 /* harmony export */ });
 var saveLocalStorage = function saveLocalStorage(key, data) {
   localStorage.setItem(key, JSON.stringify(data));
 };
 var getLocalStorage = function getLocalStorage(key) {
   return JSON.parse(localStorage.getItem(key)) || [];
+};
+var saveVideoIdToLocalStorage = function saveVideoIdToLocalStorage(data) {
+  saveLocalStorage('videoId', data);
+};
+var getVideoIdFromLocalStorage = function getVideoIdFromLocalStorage() {
+  return JSON.parse(localStorage.getItem('videoId')) || [];
 };
 
 /***/ }),
@@ -2318,11 +2340,17 @@ __webpack_require__.r(__webpack_exports__);
 var noSearchResultTemplate = function noSearchResultTemplate() {
   return "<div class=\"no-result\">\n    <img src=".concat(_assets_images_not_found_png__WEBPACK_IMPORTED_MODULE_1__["default"], " class = 'no-result__image' alt=\"\uC5C6\uC74C\" />\n    <p class=\"no-result__description\">\n            \uAC80\uC0C9 \uACB0\uACFC\uAC00 \uC5C6\uC2B5\uB2C8\uB2E4<br/>\n            \uB2E4\uB978 \uD0A4\uC6CC\uB4DC\uB85C \uAC80\uC0C9\uD574\uBCF4\uC138\uC694\n          </p></div>");
 };
-var makeIframeTemplate = function makeIframeTemplate(video) {
-  return "\n    <li class='video-item-container'>\n      <iframe\n          class = \"video-item\"\n          type=\"text/html\"\n          src=\"https://www.youtube.com/embed/".concat(video.id.videoId, "\"\n          frameborder=\"0\"\n          allowfullscreen=\"allowfullscreen\"\n      ></iframe>\n      <h4 class=\"video-item__title\">").concat(video.snippet.title, "</h4>\n      <p class=\"video-item__channel-name\">").concat(video.snippet.channelTitle, "</p>\n      <p class=\"video-item__published-date\">").concat((0,_common_js__WEBPACK_IMPORTED_MODULE_0__.changeDateFormat)(video.snippet.publishedAt), "</p>\n      <button id=\"").concat(video.id.videoId, "\" class=\"video-item__save-button button\">\u2B07 \uC800\uC7A5</button>\n  </li>");
+var makeIframeTemplate = function makeIframeTemplate(video, exist) {
+  var displayProp = '';
+
+  if (exist === 'exist') {
+    displayProp = 'hide';
+  }
+
+  return "\n    <li class='video-item-container'>\n      <img\n        src=\"https://img.youtube.com/vi/".concat(video.id.videoId, "/0.jpg\"\n        alt=\"video-item-thumbnail\" class=\"video-item\">\n      <h4 class=\"video-item__title\">").concat(video.snippet.title, "</h4>\n      <p class=\"video-item__channel-name\">").concat(video.snippet.channelTitle, "</p>\n      <p class=\"video-item__published-date\">").concat((0,_common_js__WEBPACK_IMPORTED_MODULE_0__.changeDateFormat)(video.snippet.publishedAt), "</p>\n      <button id=\"").concat(video.id.videoId, "\"  class=\"video-item__save-button button ").concat(displayProp, "\">\u2B07 \uC800\uC7A5</button>\n  </li>");
 };
 var makeSkeletonTemplate = function makeSkeletonTemplate() {
-  return "\n    <div class=\"skeleton\">\n        <div class=\"image\"></div>\n        <p class=\"line\"></p>\n        <p class=\"line\"></p>\n    </div>\n    ";
+  return "\n    <div class=\"skeleton\">\n      <div class=\"image\"></div>\n      <p class=\"line\"></p>\n      <p class=\"line\"></p>\n      <p class=\"skeleton-button\"></p>\n    </div>\n    ";
 };
 
 /***/ })
