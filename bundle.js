@@ -32,7 +32,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "body {\r\n  padding: 64px 0;\r\n  font-size: 16px;\r\n}\r\n\r\n#app {\r\n  max-width: 1020px;\r\n  margin: 0 auto;\r\n}\r\n\r\n.classroom-container__title {\r\n  text-align: center;\r\n  font-weight: bold;\r\n  font-size: 34px;\r\n  line-height: 36px;\r\n  margin-bottom: 64px;\r\n}\r\n\r\n.nav {\r\n  display: flex;\r\n  justify-content: left;\r\n  margin-left: 0%;\r\n  margin-right: 0%;\r\n}\r\n\r\n.button {\r\n  cursor: pointer;\r\n  border-radius: 4px;\r\n  border: none;\r\n  font-style: normal;\r\n  font-weight: bold;\r\n  font-size: 14px;\r\n  letter-spacing: 1.25px;\r\n}\r\n\r\n.nav__button {\r\n  width: 115px;\r\n  height: 36px;\r\n  background: #f5f5f5;\r\n  transition: background-color 0.5s;\r\n  margin: 1%;\r\n}\r\n\r\n.nav__button:hover {\r\n  background: #c4bfbf;\r\n}\r\n\r\n.clicked {\r\n  background: #c4bfbf;\r\n}\r\n\r\n#search-modal-button {\r\n  width: 80px;\r\n  height: 36px;\r\n  margin-left: auto;\r\n}\r\n\r\n#classroom-contents-container {\r\n  display: grid;\r\n  gap: 100px 20px;\r\n  grid-auto-flow: dense;\r\n  justify-items: center;\r\n  grid-template-columns: repeat(4, 1fr);\r\n}\r\n\r\n@media (max-width: 1280px) {\r\n  #classroom-contents-container {\r\n    grid-template-columns: repeat(3, 1fr);\r\n  }\r\n}\r\n@media (max-width: 960px) {\r\n  #classroom-contents-container {\r\n    grid-template-columns: repeat(2, 1fr);\r\n  }\r\n}\r\n@media (max-width: 600px) {\r\n  #classroom-contents-container {\r\n    grid-template-columns: repeat(1, 1fr);\r\n  }\r\n}\r\n\r\n.already-watch-button,\r\n.discard-button {\r\n  position: relative;\r\n  width: 36px;\r\n  height: 30px;\r\n  background: #f9f9f9;\r\n  transition: background-color 0.3s;\r\n}\r\n\r\n.already-watch-button:hover,\r\n.discard-button:hover {\r\n  position: relative;\r\n  width: 36px;\r\n  height: 30px;\r\n  background: #efefef;\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/css/app.css"],"names":[],"mappings":"AAAA;EACE,eAAe;EACf,eAAe;AACjB;;AAEA;EACE,iBAAiB;EACjB,cAAc;AAChB;;AAEA;EACE,kBAAkB;EAClB,iBAAiB;EACjB,eAAe;EACf,iBAAiB;EACjB,mBAAmB;AACrB;;AAEA;EACE,aAAa;EACb,qBAAqB;EACrB,eAAe;EACf,gBAAgB;AAClB;;AAEA;EACE,eAAe;EACf,kBAAkB;EAClB,YAAY;EACZ,kBAAkB;EAClB,iBAAiB;EACjB,eAAe;EACf,sBAAsB;AACxB;;AAEA;EACE,YAAY;EACZ,YAAY;EACZ,mBAAmB;EACnB,iCAAiC;EACjC,UAAU;AACZ;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,WAAW;EACX,YAAY;EACZ,iBAAiB;AACnB;;AAEA;EACE,aAAa;EACb,eAAe;EACf,qBAAqB;EACrB,qBAAqB;EACrB,qCAAqC;AACvC;;AAEA;EACE;IACE,qCAAqC;EACvC;AACF;AACA;EACE;IACE,qCAAqC;EACvC;AACF;AACA;EACE;IACE,qCAAqC;EACvC;AACF;;AAEA;;EAEE,kBAAkB;EAClB,WAAW;EACX,YAAY;EACZ,mBAAmB;EACnB,iCAAiC;AACnC;;AAEA;;EAEE,kBAAkB;EAClB,WAAW;EACX,YAAY;EACZ,mBAAmB;AACrB","sourcesContent":["body {\r\n  padding: 64px 0;\r\n  font-size: 16px;\r\n}\r\n\r\n#app {\r\n  max-width: 1020px;\r\n  margin: 0 auto;\r\n}\r\n\r\n.classroom-container__title {\r\n  text-align: center;\r\n  font-weight: bold;\r\n  font-size: 34px;\r\n  line-height: 36px;\r\n  margin-bottom: 64px;\r\n}\r\n\r\n.nav {\r\n  display: flex;\r\n  justify-content: left;\r\n  margin-left: 0%;\r\n  margin-right: 0%;\r\n}\r\n\r\n.button {\r\n  cursor: pointer;\r\n  border-radius: 4px;\r\n  border: none;\r\n  font-style: normal;\r\n  font-weight: bold;\r\n  font-size: 14px;\r\n  letter-spacing: 1.25px;\r\n}\r\n\r\n.nav__button {\r\n  width: 115px;\r\n  height: 36px;\r\n  background: #f5f5f5;\r\n  transition: background-color 0.5s;\r\n  margin: 1%;\r\n}\r\n\r\n.nav__button:hover {\r\n  background: #c4bfbf;\r\n}\r\n\r\n.clicked {\r\n  background: #c4bfbf;\r\n}\r\n\r\n#search-modal-button {\r\n  width: 80px;\r\n  height: 36px;\r\n  margin-left: auto;\r\n}\r\n\r\n#classroom-contents-container {\r\n  display: grid;\r\n  gap: 100px 20px;\r\n  grid-auto-flow: dense;\r\n  justify-items: center;\r\n  grid-template-columns: repeat(4, 1fr);\r\n}\r\n\r\n@media (max-width: 1280px) {\r\n  #classroom-contents-container {\r\n    grid-template-columns: repeat(3, 1fr);\r\n  }\r\n}\r\n@media (max-width: 960px) {\r\n  #classroom-contents-container {\r\n    grid-template-columns: repeat(2, 1fr);\r\n  }\r\n}\r\n@media (max-width: 600px) {\r\n  #classroom-contents-container {\r\n    grid-template-columns: repeat(1, 1fr);\r\n  }\r\n}\r\n\r\n.already-watch-button,\r\n.discard-button {\r\n  position: relative;\r\n  width: 36px;\r\n  height: 30px;\r\n  background: #f9f9f9;\r\n  transition: background-color 0.3s;\r\n}\r\n\r\n.already-watch-button:hover,\r\n.discard-button:hover {\r\n  position: relative;\r\n  width: 36px;\r\n  height: 30px;\r\n  background: #efefef;\r\n}\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "body {\r\n  padding: 64px 0;\r\n  font-size: 16px;\r\n}\r\n\r\n#app {\r\n  max-width: 1020px;\r\n  margin: 0 auto;\r\n}\r\n\r\n.classroom-container__title {\r\n  text-align: center;\r\n  font-weight: bold;\r\n  font-size: 34px;\r\n  line-height: 36px;\r\n  margin-bottom: 64px;\r\n}\r\n\r\n.nav {\r\n  display: flex;\r\n  justify-content: left;\r\n  margin-left: 0%;\r\n  margin-right: 0%;\r\n}\r\n\r\n.button {\r\n  cursor: pointer;\r\n  border-radius: 4px;\r\n  border: none;\r\n  font-style: normal;\r\n  font-weight: bold;\r\n  font-size: 14px;\r\n  letter-spacing: 1.25px;\r\n}\r\n\r\n.nav__button {\r\n  width: 115px;\r\n  height: 36px;\r\n  background: #f5f5f5;\r\n  transition: background-color 0.5s;\r\n  margin: 1%;\r\n}\r\n\r\n.nav__button:hover {\r\n  background: #c4bfbf;\r\n}\r\n\r\n.clicked {\r\n  background: #c4bfbf !important;\r\n}\r\n\r\n#search-modal-button {\r\n  width: 80px;\r\n  height: 36px;\r\n  margin-left: auto;\r\n}\r\n\r\n#classroom-contents-container {\r\n  display: grid;\r\n  gap: 100px 20px;\r\n  grid-auto-flow: dense;\r\n  justify-items: center;\r\n  grid-template-columns: repeat(4, 1fr);\r\n}\r\n\r\n@media (max-width: 1280px) {\r\n  #classroom-contents-container {\r\n    grid-template-columns: repeat(3, 1fr);\r\n  }\r\n}\r\n@media (max-width: 960px) {\r\n  #classroom-contents-container {\r\n    grid-template-columns: repeat(2, 1fr);\r\n  }\r\n}\r\n@media (max-width: 600px) {\r\n  #classroom-contents-container {\r\n    grid-template-columns: repeat(1, 1fr);\r\n  }\r\n}\r\n\r\n.already-watch-button,\r\n.discard-button {\r\n  position: relative;\r\n  width: 36px;\r\n  height: 30px;\r\n  background: #f9f9f9;\r\n  transition: background-color 0.3s;\r\n}\r\n\r\n.already-watch-button:hover,\r\n.discard-button:hover {\r\n  position: relative;\r\n  width: 36px;\r\n  height: 30px;\r\n  background: #efefef;\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/css/app.css"],"names":[],"mappings":"AAAA;EACE,eAAe;EACf,eAAe;AACjB;;AAEA;EACE,iBAAiB;EACjB,cAAc;AAChB;;AAEA;EACE,kBAAkB;EAClB,iBAAiB;EACjB,eAAe;EACf,iBAAiB;EACjB,mBAAmB;AACrB;;AAEA;EACE,aAAa;EACb,qBAAqB;EACrB,eAAe;EACf,gBAAgB;AAClB;;AAEA;EACE,eAAe;EACf,kBAAkB;EAClB,YAAY;EACZ,kBAAkB;EAClB,iBAAiB;EACjB,eAAe;EACf,sBAAsB;AACxB;;AAEA;EACE,YAAY;EACZ,YAAY;EACZ,mBAAmB;EACnB,iCAAiC;EACjC,UAAU;AACZ;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,8BAA8B;AAChC;;AAEA;EACE,WAAW;EACX,YAAY;EACZ,iBAAiB;AACnB;;AAEA;EACE,aAAa;EACb,eAAe;EACf,qBAAqB;EACrB,qBAAqB;EACrB,qCAAqC;AACvC;;AAEA;EACE;IACE,qCAAqC;EACvC;AACF;AACA;EACE;IACE,qCAAqC;EACvC;AACF;AACA;EACE;IACE,qCAAqC;EACvC;AACF;;AAEA;;EAEE,kBAAkB;EAClB,WAAW;EACX,YAAY;EACZ,mBAAmB;EACnB,iCAAiC;AACnC;;AAEA;;EAEE,kBAAkB;EAClB,WAAW;EACX,YAAY;EACZ,mBAAmB;AACrB","sourcesContent":["body {\r\n  padding: 64px 0;\r\n  font-size: 16px;\r\n}\r\n\r\n#app {\r\n  max-width: 1020px;\r\n  margin: 0 auto;\r\n}\r\n\r\n.classroom-container__title {\r\n  text-align: center;\r\n  font-weight: bold;\r\n  font-size: 34px;\r\n  line-height: 36px;\r\n  margin-bottom: 64px;\r\n}\r\n\r\n.nav {\r\n  display: flex;\r\n  justify-content: left;\r\n  margin-left: 0%;\r\n  margin-right: 0%;\r\n}\r\n\r\n.button {\r\n  cursor: pointer;\r\n  border-radius: 4px;\r\n  border: none;\r\n  font-style: normal;\r\n  font-weight: bold;\r\n  font-size: 14px;\r\n  letter-spacing: 1.25px;\r\n}\r\n\r\n.nav__button {\r\n  width: 115px;\r\n  height: 36px;\r\n  background: #f5f5f5;\r\n  transition: background-color 0.5s;\r\n  margin: 1%;\r\n}\r\n\r\n.nav__button:hover {\r\n  background: #c4bfbf;\r\n}\r\n\r\n.clicked {\r\n  background: #c4bfbf !important;\r\n}\r\n\r\n#search-modal-button {\r\n  width: 80px;\r\n  height: 36px;\r\n  margin-left: auto;\r\n}\r\n\r\n#classroom-contents-container {\r\n  display: grid;\r\n  gap: 100px 20px;\r\n  grid-auto-flow: dense;\r\n  justify-items: center;\r\n  grid-template-columns: repeat(4, 1fr);\r\n}\r\n\r\n@media (max-width: 1280px) {\r\n  #classroom-contents-container {\r\n    grid-template-columns: repeat(3, 1fr);\r\n  }\r\n}\r\n@media (max-width: 960px) {\r\n  #classroom-contents-container {\r\n    grid-template-columns: repeat(2, 1fr);\r\n  }\r\n}\r\n@media (max-width: 600px) {\r\n  #classroom-contents-container {\r\n    grid-template-columns: repeat(1, 1fr);\r\n  }\r\n}\r\n\r\n.already-watch-button,\r\n.discard-button {\r\n  position: relative;\r\n  width: 36px;\r\n  height: 30px;\r\n  background: #f9f9f9;\r\n  transition: background-color 0.3s;\r\n}\r\n\r\n.already-watch-button:hover,\r\n.discard-button:hover {\r\n  position: relative;\r\n  width: 36px;\r\n  height: 30px;\r\n  background: #efefef;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -56,7 +56,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _node_modules_css_loader_dist_cjs_js_app_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! -!../../node_modules/css-loader/dist/cjs.js!./app.css */ "./node_modules/css-loader/dist/cjs.js!./src/css/app.css");
 /* harmony import */ var _node_modules_css_loader_dist_cjs_js_modal_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! -!../../node_modules/css-loader/dist/cjs.js!./modal.css */ "./node_modules/css-loader/dist/cjs.js!./src/css/modal.css");
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_snackbar_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! -!../../node_modules/css-loader/dist/cjs.js!./snackbar.css */ "./node_modules/css-loader/dist/cjs.js!./src/css/snackbar.css");
 // Imports
+
 
 
 
@@ -64,8 +66,9 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_app_css__WEBPACK_IMPORTED_MODULE_2__["default"]);
 ___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_modal_css__WEBPACK_IMPORTED_MODULE_3__["default"]);
+___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_snackbar_css__WEBPACK_IMPORTED_MODULE_4__["default"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n}\r\n\r\nol,ul {\r\n    list-style: none;\r\n}\r\n\r\nhtml, body {\r\n    height: 100%;\r\n    -webkit-font-smoothing: antialiased;\r\n}\r\n\r\ninput, button, textarea, select {\r\n    font: inherit;\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/css/index.css"],"names":[],"mappings":"AAGA;IACI,SAAS;IACT,UAAU;IACV,sBAAsB;AAC1B;;AAEA;IACI,gBAAgB;AACpB;;AAEA;IACI,YAAY;IACZ,mCAAmC;AACvC;;AAEA;IACI,aAAa;AACjB","sourcesContent":["@import './app.css';\r\n@import './modal.css';\r\n\r\n* {\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n}\r\n\r\nol,ul {\r\n    list-style: none;\r\n}\r\n\r\nhtml, body {\r\n    height: 100%;\r\n    -webkit-font-smoothing: antialiased;\r\n}\r\n\r\ninput, button, textarea, select {\r\n    font: inherit;\r\n}\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n}\r\n\r\nol,\r\nul {\r\n  list-style: none;\r\n}\r\n\r\nhtml,\r\nbody {\r\n  height: 100%;\r\n  -webkit-font-smoothing: antialiased;\r\n}\r\n\r\ninput,\r\nbutton,\r\ntextarea,\r\nselect {\r\n  font: inherit;\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/css/index.css"],"names":[],"mappings":"AAIA;EACE,SAAS;EACT,UAAU;EACV,sBAAsB;AACxB;;AAEA;;EAEE,gBAAgB;AAClB;;AAEA;;EAEE,YAAY;EACZ,mCAAmC;AACrC;;AAEA;;;;EAIE,aAAa;AACf","sourcesContent":["@import './app.css';\r\n@import './modal.css';\r\n@import './snackbar.css';\r\n\r\n* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n}\r\n\r\nol,\r\nul {\r\n  list-style: none;\r\n}\r\n\r\nhtml,\r\nbody {\r\n  height: 100%;\r\n  -webkit-font-smoothing: antialiased;\r\n}\r\n\r\ninput,\r\nbutton,\r\ntextarea,\r\nselect {\r\n  font: inherit;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -92,7 +95,34 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".modal-container {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  width: 100vw;\r\n  height: 100vh;\r\n  position: fixed;\r\n  top: 0;\r\n  left: 0;\r\n}\r\n\r\n.modal-container.hide {\r\n  display: none;\r\n}\r\n\r\n.dimmer {\r\n  position: absolute;\r\n  width: 100%;\r\n  height: 100%;\r\n  background: rgba(0, 0, 0, 0.5);\r\n}\r\n\r\n#result-label {\r\n  margin-bottom: 20px;\r\n}\r\n\r\n.search-modal {\r\n  position: relative;\r\n  width: 1080px;\r\n  height: 727px;\r\n  background: #ffffff;\r\n  border: 1px solid rgba(0, 0, 0, 0.12);\r\n  border-radius: 4px;\r\n  padding: 50px 30px 32px 30px;\r\n}\r\n\r\n.search-modal__title {\r\n  font-weight: bold;\r\n  font-size: 34px;\r\n  line-height: 36px;\r\n  text-align: center;\r\n  margin-bottom: 40px;\r\n}\r\n\r\n.search-input {\r\n  display: flex;\r\n  justify-content: center;\r\n  margin-bottom: 40px;\r\n}\r\n\r\n.search-input__keyword {\r\n  width: 400px;\r\n  height: 36px;\r\n  margin-right: 20px;\r\n  padding: 4px 8px;\r\n  border: 1px solid #b4b4b4;\r\n  border-radius: 4px;\r\n}\r\n\r\n.search-input__keyword::placeholder {\r\n  color: #8b8b8b;\r\n  font-size: 16px;\r\n}\r\n\r\n.search-input__search-button {\r\n  width: 72px;\r\n  height: 36px;\r\n  background: #00bcd4;\r\n  color: #ffffff;\r\n}\r\n#search-input-clear-button {\r\n  position: absolute;\r\n  left: 666px;\r\n  top: 132px;\r\n  width: 25px;\r\n  height: 25px;\r\n  border: none;\r\n  background-color: transparent;\r\n}\r\n\r\n#search-input-clear-button:after {\r\n  content: '\\00d7';\r\n  font-size: 12pt;\r\n}\r\n\r\n#search-input-clear-button:active {\r\n  background-color: #f3f3f3;\r\n  border-radius: 50%;\r\n}\r\n\r\n#no-result {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  justify-content: center;\r\n}\r\n\r\n.no-result__image {\r\n  width: 190px;\r\n  height: 140px;\r\n  margin-bottom: 45px;\r\n}\r\n\r\n.no-result__description {\r\n  font-size: 16px;\r\n  line-height: 200%;\r\n  text-align: center;\r\n  letter-spacing: 0.5px;\r\n}\r\n\r\n#video-list {\r\n  width: 1040px;\r\n  height: 479px;\r\n  display: flex;\r\n  flex-direction: row;\r\n  flex-wrap: wrap;\r\n  gap: 62px 20px;\r\n  overflow-y: auto;\r\n}\r\n\r\n.video-item-container {\r\n  height: 300px;\r\n  width: 240px;\r\n}\r\n\r\n.video-item {\r\n  position: relative;\r\n  width: 100%;\r\n  height: 70%;\r\n}\r\n\r\n.video-item__thumbnail {\r\n  width: 100%;\r\n  height: 135px;\r\n}\r\n\r\n.video-item__title {\r\n  font-weight: bold;\r\n  font-size: 17px;\r\n  line-height: 24px;\r\n  letter-spacing: 0.5px;\r\n  white-space: nowrap;\r\n  overflow: hidden;\r\n  text-overflow: ellipsis;\r\n  margin: 4px 0;\r\n}\r\n\r\n.video-item__channel-name {\r\n  font-size: 13px;\r\n  line-height: 24px;\r\n  letter-spacing: 0.5px;\r\n  white-space: nowrap;\r\n  overflow: hidden;\r\n  text-overflow: ellipsis;\r\n}\r\n\r\n.video-item__published-date {\r\n  font-size: 12px;\r\n  line-height: 23px;\r\n  letter-spacing: 0.5px;\r\n}\r\n\r\n.button-container {\r\n  float: right;\r\n}\r\n\r\n.video-item__save-button {\r\n  position: relative;\r\n  width: 70px;\r\n  height: 30px;\r\n  background: #f9f9f9;\r\n}\r\n\r\n.video-item__save-button:hover {\r\n  background: #efefef;\r\n}\r\n\r\n.video-item__save-button.hide {\r\n  display: none;\r\n}\r\n\r\n.skeleton {\r\n  height: 280px;\r\n  width: 240px;\r\n}\r\n\r\n.skeleton .image,\r\n.skeleton .line,\r\n.skeleton .skeleton-button {\r\n  background-image: linear-gradient(90deg, #e0e0e0 0px, #ededed 30px, #e0e0e0 60px);\r\n  animation: refresh 2s infinite ease-out;\r\n}\r\n\r\n.skeleton .image {\r\n  height: 70%;\r\n}\r\n\r\n.skeleton .line {\r\n  height: 12px;\r\n  margin-top: 2px;\r\n}\r\n\r\n.skeleton .pblsh-date {\r\n  width: 80%;\r\n}\r\n\r\n.skeleton .skeleton-button {\r\n  width: 25%;\r\n  height: 25px;\r\n  margin-top: 5px;\r\n  float: right;\r\n}\r\n\r\n@keyframes refresh {\r\n  0% {\r\n    background-position: calc(-100px);\r\n  }\r\n  40%,\r\n  100% {\r\n    background-position: 320px;\r\n  }\r\n}\r\n\r\n#close-modal-button {\r\n  float: right;\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/css/modal.css"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,mBAAmB;EACnB,uBAAuB;EACvB,YAAY;EACZ,aAAa;EACb,eAAe;EACf,MAAM;EACN,OAAO;AACT;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,kBAAkB;EAClB,WAAW;EACX,YAAY;EACZ,8BAA8B;AAChC;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,kBAAkB;EAClB,aAAa;EACb,aAAa;EACb,mBAAmB;EACnB,qCAAqC;EACrC,kBAAkB;EAClB,4BAA4B;AAC9B;;AAEA;EACE,iBAAiB;EACjB,eAAe;EACf,iBAAiB;EACjB,kBAAkB;EAClB,mBAAmB;AACrB;;AAEA;EACE,aAAa;EACb,uBAAuB;EACvB,mBAAmB;AACrB;;AAEA;EACE,YAAY;EACZ,YAAY;EACZ,kBAAkB;EAClB,gBAAgB;EAChB,yBAAyB;EACzB,kBAAkB;AACpB;;AAEA;EACE,cAAc;EACd,eAAe;AACjB;;AAEA;EACE,WAAW;EACX,YAAY;EACZ,mBAAmB;EACnB,cAAc;AAChB;AACA;EACE,kBAAkB;EAClB,WAAW;EACX,UAAU;EACV,WAAW;EACX,YAAY;EACZ,YAAY;EACZ,6BAA6B;AAC/B;;AAEA;EACE,gBAAgB;EAChB,eAAe;AACjB;;AAEA;EACE,yBAAyB;EACzB,kBAAkB;AACpB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,uBAAuB;AACzB;;AAEA;EACE,YAAY;EACZ,aAAa;EACb,mBAAmB;AACrB;;AAEA;EACE,eAAe;EACf,iBAAiB;EACjB,kBAAkB;EAClB,qBAAqB;AACvB;;AAEA;EACE,aAAa;EACb,aAAa;EACb,aAAa;EACb,mBAAmB;EACnB,eAAe;EACf,cAAc;EACd,gBAAgB;AAClB;;AAEA;EACE,aAAa;EACb,YAAY;AACd;;AAEA;EACE,kBAAkB;EAClB,WAAW;EACX,WAAW;AACb;;AAEA;EACE,WAAW;EACX,aAAa;AACf;;AAEA;EACE,iBAAiB;EACjB,eAAe;EACf,iBAAiB;EACjB,qBAAqB;EACrB,mBAAmB;EACnB,gBAAgB;EAChB,uBAAuB;EACvB,aAAa;AACf;;AAEA;EACE,eAAe;EACf,iBAAiB;EACjB,qBAAqB;EACrB,mBAAmB;EACnB,gBAAgB;EAChB,uBAAuB;AACzB;;AAEA;EACE,eAAe;EACf,iBAAiB;EACjB,qBAAqB;AACvB;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,kBAAkB;EAClB,WAAW;EACX,YAAY;EACZ,mBAAmB;AACrB;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,aAAa;EACb,YAAY;AACd;;AAEA;;;EAGE,iFAAiF;EACjF,uCAAuC;AACzC;;AAEA;EACE,WAAW;AACb;;AAEA;EACE,YAAY;EACZ,eAAe;AACjB;;AAEA;EACE,UAAU;AACZ;;AAEA;EACE,UAAU;EACV,YAAY;EACZ,eAAe;EACf,YAAY;AACd;;AAEA;EACE;IACE,iCAAiC;EACnC;EACA;;IAEE,0BAA0B;EAC5B;AACF;;AAEA;EACE,YAAY;AACd","sourcesContent":[".modal-container {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  width: 100vw;\r\n  height: 100vh;\r\n  position: fixed;\r\n  top: 0;\r\n  left: 0;\r\n}\r\n\r\n.modal-container.hide {\r\n  display: none;\r\n}\r\n\r\n.dimmer {\r\n  position: absolute;\r\n  width: 100%;\r\n  height: 100%;\r\n  background: rgba(0, 0, 0, 0.5);\r\n}\r\n\r\n#result-label {\r\n  margin-bottom: 20px;\r\n}\r\n\r\n.search-modal {\r\n  position: relative;\r\n  width: 1080px;\r\n  height: 727px;\r\n  background: #ffffff;\r\n  border: 1px solid rgba(0, 0, 0, 0.12);\r\n  border-radius: 4px;\r\n  padding: 50px 30px 32px 30px;\r\n}\r\n\r\n.search-modal__title {\r\n  font-weight: bold;\r\n  font-size: 34px;\r\n  line-height: 36px;\r\n  text-align: center;\r\n  margin-bottom: 40px;\r\n}\r\n\r\n.search-input {\r\n  display: flex;\r\n  justify-content: center;\r\n  margin-bottom: 40px;\r\n}\r\n\r\n.search-input__keyword {\r\n  width: 400px;\r\n  height: 36px;\r\n  margin-right: 20px;\r\n  padding: 4px 8px;\r\n  border: 1px solid #b4b4b4;\r\n  border-radius: 4px;\r\n}\r\n\r\n.search-input__keyword::placeholder {\r\n  color: #8b8b8b;\r\n  font-size: 16px;\r\n}\r\n\r\n.search-input__search-button {\r\n  width: 72px;\r\n  height: 36px;\r\n  background: #00bcd4;\r\n  color: #ffffff;\r\n}\r\n#search-input-clear-button {\r\n  position: absolute;\r\n  left: 666px;\r\n  top: 132px;\r\n  width: 25px;\r\n  height: 25px;\r\n  border: none;\r\n  background-color: transparent;\r\n}\r\n\r\n#search-input-clear-button:after {\r\n  content: '\\00d7';\r\n  font-size: 12pt;\r\n}\r\n\r\n#search-input-clear-button:active {\r\n  background-color: #f3f3f3;\r\n  border-radius: 50%;\r\n}\r\n\r\n#no-result {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  justify-content: center;\r\n}\r\n\r\n.no-result__image {\r\n  width: 190px;\r\n  height: 140px;\r\n  margin-bottom: 45px;\r\n}\r\n\r\n.no-result__description {\r\n  font-size: 16px;\r\n  line-height: 200%;\r\n  text-align: center;\r\n  letter-spacing: 0.5px;\r\n}\r\n\r\n#video-list {\r\n  width: 1040px;\r\n  height: 479px;\r\n  display: flex;\r\n  flex-direction: row;\r\n  flex-wrap: wrap;\r\n  gap: 62px 20px;\r\n  overflow-y: auto;\r\n}\r\n\r\n.video-item-container {\r\n  height: 300px;\r\n  width: 240px;\r\n}\r\n\r\n.video-item {\r\n  position: relative;\r\n  width: 100%;\r\n  height: 70%;\r\n}\r\n\r\n.video-item__thumbnail {\r\n  width: 100%;\r\n  height: 135px;\r\n}\r\n\r\n.video-item__title {\r\n  font-weight: bold;\r\n  font-size: 17px;\r\n  line-height: 24px;\r\n  letter-spacing: 0.5px;\r\n  white-space: nowrap;\r\n  overflow: hidden;\r\n  text-overflow: ellipsis;\r\n  margin: 4px 0;\r\n}\r\n\r\n.video-item__channel-name {\r\n  font-size: 13px;\r\n  line-height: 24px;\r\n  letter-spacing: 0.5px;\r\n  white-space: nowrap;\r\n  overflow: hidden;\r\n  text-overflow: ellipsis;\r\n}\r\n\r\n.video-item__published-date {\r\n  font-size: 12px;\r\n  line-height: 23px;\r\n  letter-spacing: 0.5px;\r\n}\r\n\r\n.button-container {\r\n  float: right;\r\n}\r\n\r\n.video-item__save-button {\r\n  position: relative;\r\n  width: 70px;\r\n  height: 30px;\r\n  background: #f9f9f9;\r\n}\r\n\r\n.video-item__save-button:hover {\r\n  background: #efefef;\r\n}\r\n\r\n.video-item__save-button.hide {\r\n  display: none;\r\n}\r\n\r\n.skeleton {\r\n  height: 280px;\r\n  width: 240px;\r\n}\r\n\r\n.skeleton .image,\r\n.skeleton .line,\r\n.skeleton .skeleton-button {\r\n  background-image: linear-gradient(90deg, #e0e0e0 0px, #ededed 30px, #e0e0e0 60px);\r\n  animation: refresh 2s infinite ease-out;\r\n}\r\n\r\n.skeleton .image {\r\n  height: 70%;\r\n}\r\n\r\n.skeleton .line {\r\n  height: 12px;\r\n  margin-top: 2px;\r\n}\r\n\r\n.skeleton .pblsh-date {\r\n  width: 80%;\r\n}\r\n\r\n.skeleton .skeleton-button {\r\n  width: 25%;\r\n  height: 25px;\r\n  margin-top: 5px;\r\n  float: right;\r\n}\r\n\r\n@keyframes refresh {\r\n  0% {\r\n    background-position: calc(-100px);\r\n  }\r\n  40%,\r\n  100% {\r\n    background-position: 320px;\r\n  }\r\n}\r\n\r\n#close-modal-button {\r\n  float: right;\r\n}\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".modal-container {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  width: 100vw;\r\n  height: 100vh;\r\n  position: fixed;\r\n  top: 0;\r\n  left: 0;\r\n}\r\n\r\n.modal-container.hide {\r\n  display: none;\r\n}\r\n\r\n.dimmer {\r\n  position: absolute;\r\n  width: 100%;\r\n  height: 100%;\r\n  background: rgba(0, 0, 0, 0.5);\r\n}\r\n\r\n#result-label {\r\n  margin-bottom: 20px;\r\n}\r\n\r\n.search-modal {\r\n  position: relative;\r\n  width: 1080px;\r\n  height: 727px;\r\n  background: #ffffff;\r\n  border: 1px solid rgba(0, 0, 0, 0.12);\r\n  border-radius: 4px;\r\n  padding: 50px 30px 32px 30px;\r\n}\r\n\r\n.search-modal__title {\r\n  font-weight: bold;\r\n  font-size: 34px;\r\n  line-height: 36px;\r\n  text-align: center;\r\n  margin-bottom: 40px;\r\n}\r\n\r\n.search-input {\r\n  display: flex;\r\n  justify-content: center;\r\n  margin-bottom: 40px;\r\n}\r\n\r\n.search-input__keyword {\r\n  width: 400px;\r\n  height: 36px;\r\n  margin-right: 20px;\r\n  padding: 4px 8px;\r\n  border: 1px solid #b4b4b4;\r\n  border-radius: 4px;\r\n}\r\n\r\n.search-input__keyword::placeholder {\r\n  color: #8b8b8b;\r\n  font-size: 16px;\r\n}\r\n\r\n.search-input__search-button {\r\n  width: 72px;\r\n  height: 36px;\r\n  background: #00bcd4;\r\n  color: #ffffff;\r\n}\r\n\r\n#search-input-clear-button {\r\n  position: absolute;\r\n  left: 666px;\r\n  top: 132px;\r\n  width: 25px;\r\n  height: 25px;\r\n  border: none;\r\n  background-color: transparent;\r\n}\r\n\r\n#search-input-clear-button:after {\r\n  content: '\\00d7';\r\n  font-size: 12pt;\r\n}\r\n\r\n#search-input-clear-button:active {\r\n  background-color: #f3f3f3;\r\n  border-radius: 50%;\r\n}\r\n\r\n#no-result {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  justify-content: center;\r\n}\r\n\r\n.no-result__image {\r\n  width: 190px;\r\n  height: 140px;\r\n  margin-bottom: 45px;\r\n}\r\n\r\n.no-result__description {\r\n  font-size: 16px;\r\n  line-height: 200%;\r\n  text-align: center;\r\n  letter-spacing: 0.5px;\r\n}\r\n\r\n#video-list {\r\n  display: grid;\r\n  width: 1040px;\r\n  height: 479px;\r\n  gap: 100px 20px;\r\n  grid-auto-flow: dense;\r\n  justify-items: center;\r\n  grid-template-columns: repeat(4, 1fr);\r\n  overflow-y: auto;\r\n}\r\n\r\n@media (max-width: 1280px) {\r\n  #video-list {\r\n    grid-template-columns: repeat(3, 1fr);\r\n  }\r\n}\r\n@media (max-width: 960px) {\r\n  #video-list {\r\n    grid-template-columns: repeat(2, 1fr);\r\n  }\r\n}\r\n@media (max-width: 600px) {\r\n  #video-list {\r\n    grid-template-columns: repeat(1, 1fr);\r\n  }\r\n}\r\n\r\n#video-list::-webkit-scrollbar {\r\n  width: 6px;\r\n}\r\n#video-list::-webkit-scrollbar-thumb {\r\n  width: 4px;\r\n  height: 17%;\r\n  background-color: rgb(61, 61, 61);\r\n  border-radius: 10px;\r\n}\r\n#video-list::-webkit-scrollbar-track {\r\n  background-color: transparent;\r\n}\r\n\r\n.video-item-container {\r\n  height: 300px;\r\n  width: 240px;\r\n}\r\n\r\n.video-item {\r\n  position: relative;\r\n  width: 100%;\r\n  height: 70%;\r\n}\r\n\r\n.video-item__thumbnail {\r\n  width: 100%;\r\n  height: 135px;\r\n}\r\n\r\n.video-item__title {\r\n  font-weight: bold;\r\n  font-size: 17px;\r\n  line-height: 24px;\r\n  letter-spacing: 0.5px;\r\n  white-space: nowrap;\r\n  overflow: hidden;\r\n  text-overflow: ellipsis;\r\n  margin: 4px 0;\r\n}\r\n\r\n.video-item__channel-name {\r\n  font-size: 13px;\r\n  line-height: 24px;\r\n  letter-spacing: 0.5px;\r\n  white-space: nowrap;\r\n  overflow: hidden;\r\n  text-overflow: ellipsis;\r\n}\r\n\r\n.video-item__published-date {\r\n  font-size: 12px;\r\n  line-height: 23px;\r\n  letter-spacing: 0.5px;\r\n}\r\n\r\n.button-container {\r\n  float: right;\r\n}\r\n\r\n.video-item__save-button {\r\n  position: relative;\r\n  width: 70px;\r\n  height: 30px;\r\n  background: #f9f9f9;\r\n}\r\n\r\n.video-item__save-button:hover {\r\n  background: #efefef;\r\n}\r\n\r\n.video-item__save-button.hide {\r\n  display: none;\r\n}\r\n\r\n.skeleton {\r\n  height: 280px;\r\n  width: 240px;\r\n}\r\n\r\n.skeleton .image,\r\n.skeleton .line,\r\n.skeleton .skeleton-button {\r\n  background-image: linear-gradient(90deg, #e0e0e0 0px, #ededed 30px, #e0e0e0 60px);\r\n  animation: refresh 2s infinite ease-out;\r\n}\r\n\r\n.skeleton .image {\r\n  height: 70%;\r\n}\r\n\r\n.skeleton .line {\r\n  height: 12px;\r\n  margin-top: 2px;\r\n}\r\n\r\n.skeleton .pblsh-date {\r\n  width: 80%;\r\n}\r\n\r\n.skeleton .skeleton-button {\r\n  width: 25%;\r\n  height: 25px;\r\n  margin-top: 5px;\r\n  float: right;\r\n}\r\n\r\n@keyframes refresh {\r\n  0% {\r\n    background-position: calc(-100px);\r\n  }\r\n  40%,\r\n  100% {\r\n    background-position: 320px;\r\n  }\r\n}\r\n\r\n#close-modal-button {\r\n  float: right;\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/css/modal.css"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,mBAAmB;EACnB,uBAAuB;EACvB,YAAY;EACZ,aAAa;EACb,eAAe;EACf,MAAM;EACN,OAAO;AACT;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,kBAAkB;EAClB,WAAW;EACX,YAAY;EACZ,8BAA8B;AAChC;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,kBAAkB;EAClB,aAAa;EACb,aAAa;EACb,mBAAmB;EACnB,qCAAqC;EACrC,kBAAkB;EAClB,4BAA4B;AAC9B;;AAEA;EACE,iBAAiB;EACjB,eAAe;EACf,iBAAiB;EACjB,kBAAkB;EAClB,mBAAmB;AACrB;;AAEA;EACE,aAAa;EACb,uBAAuB;EACvB,mBAAmB;AACrB;;AAEA;EACE,YAAY;EACZ,YAAY;EACZ,kBAAkB;EAClB,gBAAgB;EAChB,yBAAyB;EACzB,kBAAkB;AACpB;;AAEA;EACE,cAAc;EACd,eAAe;AACjB;;AAEA;EACE,WAAW;EACX,YAAY;EACZ,mBAAmB;EACnB,cAAc;AAChB;;AAEA;EACE,kBAAkB;EAClB,WAAW;EACX,UAAU;EACV,WAAW;EACX,YAAY;EACZ,YAAY;EACZ,6BAA6B;AAC/B;;AAEA;EACE,gBAAgB;EAChB,eAAe;AACjB;;AAEA;EACE,yBAAyB;EACzB,kBAAkB;AACpB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,uBAAuB;AACzB;;AAEA;EACE,YAAY;EACZ,aAAa;EACb,mBAAmB;AACrB;;AAEA;EACE,eAAe;EACf,iBAAiB;EACjB,kBAAkB;EAClB,qBAAqB;AACvB;;AAEA;EACE,aAAa;EACb,aAAa;EACb,aAAa;EACb,eAAe;EACf,qBAAqB;EACrB,qBAAqB;EACrB,qCAAqC;EACrC,gBAAgB;AAClB;;AAEA;EACE;IACE,qCAAqC;EACvC;AACF;AACA;EACE;IACE,qCAAqC;EACvC;AACF;AACA;EACE;IACE,qCAAqC;EACvC;AACF;;AAEA;EACE,UAAU;AACZ;AACA;EACE,UAAU;EACV,WAAW;EACX,iCAAiC;EACjC,mBAAmB;AACrB;AACA;EACE,6BAA6B;AAC/B;;AAEA;EACE,aAAa;EACb,YAAY;AACd;;AAEA;EACE,kBAAkB;EAClB,WAAW;EACX,WAAW;AACb;;AAEA;EACE,WAAW;EACX,aAAa;AACf;;AAEA;EACE,iBAAiB;EACjB,eAAe;EACf,iBAAiB;EACjB,qBAAqB;EACrB,mBAAmB;EACnB,gBAAgB;EAChB,uBAAuB;EACvB,aAAa;AACf;;AAEA;EACE,eAAe;EACf,iBAAiB;EACjB,qBAAqB;EACrB,mBAAmB;EACnB,gBAAgB;EAChB,uBAAuB;AACzB;;AAEA;EACE,eAAe;EACf,iBAAiB;EACjB,qBAAqB;AACvB;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,kBAAkB;EAClB,WAAW;EACX,YAAY;EACZ,mBAAmB;AACrB;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,aAAa;EACb,YAAY;AACd;;AAEA;;;EAGE,iFAAiF;EACjF,uCAAuC;AACzC;;AAEA;EACE,WAAW;AACb;;AAEA;EACE,YAAY;EACZ,eAAe;AACjB;;AAEA;EACE,UAAU;AACZ;;AAEA;EACE,UAAU;EACV,YAAY;EACZ,eAAe;EACf,YAAY;AACd;;AAEA;EACE;IACE,iCAAiC;EACnC;EACA;;IAEE,0BAA0B;EAC5B;AACF;;AAEA;EACE,YAAY;AACd","sourcesContent":[".modal-container {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  width: 100vw;\r\n  height: 100vh;\r\n  position: fixed;\r\n  top: 0;\r\n  left: 0;\r\n}\r\n\r\n.modal-container.hide {\r\n  display: none;\r\n}\r\n\r\n.dimmer {\r\n  position: absolute;\r\n  width: 100%;\r\n  height: 100%;\r\n  background: rgba(0, 0, 0, 0.5);\r\n}\r\n\r\n#result-label {\r\n  margin-bottom: 20px;\r\n}\r\n\r\n.search-modal {\r\n  position: relative;\r\n  width: 1080px;\r\n  height: 727px;\r\n  background: #ffffff;\r\n  border: 1px solid rgba(0, 0, 0, 0.12);\r\n  border-radius: 4px;\r\n  padding: 50px 30px 32px 30px;\r\n}\r\n\r\n.search-modal__title {\r\n  font-weight: bold;\r\n  font-size: 34px;\r\n  line-height: 36px;\r\n  text-align: center;\r\n  margin-bottom: 40px;\r\n}\r\n\r\n.search-input {\r\n  display: flex;\r\n  justify-content: center;\r\n  margin-bottom: 40px;\r\n}\r\n\r\n.search-input__keyword {\r\n  width: 400px;\r\n  height: 36px;\r\n  margin-right: 20px;\r\n  padding: 4px 8px;\r\n  border: 1px solid #b4b4b4;\r\n  border-radius: 4px;\r\n}\r\n\r\n.search-input__keyword::placeholder {\r\n  color: #8b8b8b;\r\n  font-size: 16px;\r\n}\r\n\r\n.search-input__search-button {\r\n  width: 72px;\r\n  height: 36px;\r\n  background: #00bcd4;\r\n  color: #ffffff;\r\n}\r\n\r\n#search-input-clear-button {\r\n  position: absolute;\r\n  left: 666px;\r\n  top: 132px;\r\n  width: 25px;\r\n  height: 25px;\r\n  border: none;\r\n  background-color: transparent;\r\n}\r\n\r\n#search-input-clear-button:after {\r\n  content: '\\00d7';\r\n  font-size: 12pt;\r\n}\r\n\r\n#search-input-clear-button:active {\r\n  background-color: #f3f3f3;\r\n  border-radius: 50%;\r\n}\r\n\r\n#no-result {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  justify-content: center;\r\n}\r\n\r\n.no-result__image {\r\n  width: 190px;\r\n  height: 140px;\r\n  margin-bottom: 45px;\r\n}\r\n\r\n.no-result__description {\r\n  font-size: 16px;\r\n  line-height: 200%;\r\n  text-align: center;\r\n  letter-spacing: 0.5px;\r\n}\r\n\r\n#video-list {\r\n  display: grid;\r\n  width: 1040px;\r\n  height: 479px;\r\n  gap: 100px 20px;\r\n  grid-auto-flow: dense;\r\n  justify-items: center;\r\n  grid-template-columns: repeat(4, 1fr);\r\n  overflow-y: auto;\r\n}\r\n\r\n@media (max-width: 1280px) {\r\n  #video-list {\r\n    grid-template-columns: repeat(3, 1fr);\r\n  }\r\n}\r\n@media (max-width: 960px) {\r\n  #video-list {\r\n    grid-template-columns: repeat(2, 1fr);\r\n  }\r\n}\r\n@media (max-width: 600px) {\r\n  #video-list {\r\n    grid-template-columns: repeat(1, 1fr);\r\n  }\r\n}\r\n\r\n#video-list::-webkit-scrollbar {\r\n  width: 6px;\r\n}\r\n#video-list::-webkit-scrollbar-thumb {\r\n  width: 4px;\r\n  height: 17%;\r\n  background-color: rgb(61, 61, 61);\r\n  border-radius: 10px;\r\n}\r\n#video-list::-webkit-scrollbar-track {\r\n  background-color: transparent;\r\n}\r\n\r\n.video-item-container {\r\n  height: 300px;\r\n  width: 240px;\r\n}\r\n\r\n.video-item {\r\n  position: relative;\r\n  width: 100%;\r\n  height: 70%;\r\n}\r\n\r\n.video-item__thumbnail {\r\n  width: 100%;\r\n  height: 135px;\r\n}\r\n\r\n.video-item__title {\r\n  font-weight: bold;\r\n  font-size: 17px;\r\n  line-height: 24px;\r\n  letter-spacing: 0.5px;\r\n  white-space: nowrap;\r\n  overflow: hidden;\r\n  text-overflow: ellipsis;\r\n  margin: 4px 0;\r\n}\r\n\r\n.video-item__channel-name {\r\n  font-size: 13px;\r\n  line-height: 24px;\r\n  letter-spacing: 0.5px;\r\n  white-space: nowrap;\r\n  overflow: hidden;\r\n  text-overflow: ellipsis;\r\n}\r\n\r\n.video-item__published-date {\r\n  font-size: 12px;\r\n  line-height: 23px;\r\n  letter-spacing: 0.5px;\r\n}\r\n\r\n.button-container {\r\n  float: right;\r\n}\r\n\r\n.video-item__save-button {\r\n  position: relative;\r\n  width: 70px;\r\n  height: 30px;\r\n  background: #f9f9f9;\r\n}\r\n\r\n.video-item__save-button:hover {\r\n  background: #efefef;\r\n}\r\n\r\n.video-item__save-button.hide {\r\n  display: none;\r\n}\r\n\r\n.skeleton {\r\n  height: 280px;\r\n  width: 240px;\r\n}\r\n\r\n.skeleton .image,\r\n.skeleton .line,\r\n.skeleton .skeleton-button {\r\n  background-image: linear-gradient(90deg, #e0e0e0 0px, #ededed 30px, #e0e0e0 60px);\r\n  animation: refresh 2s infinite ease-out;\r\n}\r\n\r\n.skeleton .image {\r\n  height: 70%;\r\n}\r\n\r\n.skeleton .line {\r\n  height: 12px;\r\n  margin-top: 2px;\r\n}\r\n\r\n.skeleton .pblsh-date {\r\n  width: 80%;\r\n}\r\n\r\n.skeleton .skeleton-button {\r\n  width: 25%;\r\n  height: 25px;\r\n  margin-top: 5px;\r\n  float: right;\r\n}\r\n\r\n@keyframes refresh {\r\n  0% {\r\n    background-position: calc(-100px);\r\n  }\r\n  40%,\r\n  100% {\r\n    background-position: 320px;\r\n  }\r\n}\r\n\r\n#close-modal-button {\r\n  float: right;\r\n}\r\n"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/css/snackbar.css":
+/*!********************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/css/snackbar.css ***!
+  \********************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/sourceMaps.js */ "./node_modules/css-loader/dist/runtime/sourceMaps.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "#snackbar-container {\r\n  display: flex;\r\n  flex-direction: column-reverse;\r\n  width: 300px;\r\n  position: absolute;\r\n  bottom: 10px;\r\n  left: 50%;\r\n  transform: translate(-50%, 0%);\r\n}\r\n\r\n.snackbar-item {\r\n  width: 250px;\r\n  height: 28px;\r\n  background-color: black;\r\n  color: aliceblue;\r\n  font-size: 13px;\r\n  position: relative;\r\n  text-align: center;\r\n  margin: 4px;\r\n\r\n  animation: show 2s;\r\n}\r\n\r\n@keyframes show {\r\n  0% {\r\n    opacity: 0%;\r\n    top: 30px;\r\n  }\r\n\r\n  100% {\r\n    top: 0;\r\n  }\r\n}\r\n\r\n.disappear {\r\n  animation: test 2s;\r\n}\r\n\r\n@keyframes test {\r\n  0% {\r\n    top: 0;\r\n  }\r\n\r\n  100% {\r\n    opacity: 0%;\r\n    top: 30px;\r\n  }\r\n}\r\n\r\n.snackbar-rollback-button {\r\n  background-color: transparent;\r\n  color: rgb(166, 234, 255);\r\n  border: none;\r\n  font-size: 12px;\r\n  margin-left: 5px;\r\n}\r\n\r\n.snackbar-close-button {\r\n  color: aliceblue;\r\n  width: 12px;\r\n  height: 12px;\r\n  border: none;\r\n  background-color: transparent;\r\n}\r\n\r\n.snackbar-close-button:after {\r\n  content: '\\00d7';\r\n  font-size: 12pt;\r\n}\r\n\r\n.snackbar-close-button:active {\r\n  background-color: black;\r\n  border-radius: 50%;\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/css/snackbar.css"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,8BAA8B;EAC9B,YAAY;EACZ,kBAAkB;EAClB,YAAY;EACZ,SAAS;EACT,8BAA8B;AAChC;;AAEA;EACE,YAAY;EACZ,YAAY;EACZ,uBAAuB;EACvB,gBAAgB;EAChB,eAAe;EACf,kBAAkB;EAClB,kBAAkB;EAClB,WAAW;;EAEX,kBAAkB;AACpB;;AAEA;EACE;IACE,WAAW;IACX,SAAS;EACX;;EAEA;IACE,MAAM;EACR;AACF;;AAEA;EACE,kBAAkB;AACpB;;AAEA;EACE;IACE,MAAM;EACR;;EAEA;IACE,WAAW;IACX,SAAS;EACX;AACF;;AAEA;EACE,6BAA6B;EAC7B,yBAAyB;EACzB,YAAY;EACZ,eAAe;EACf,gBAAgB;AAClB;;AAEA;EACE,gBAAgB;EAChB,WAAW;EACX,YAAY;EACZ,YAAY;EACZ,6BAA6B;AAC/B;;AAEA;EACE,gBAAgB;EAChB,eAAe;AACjB;;AAEA;EACE,uBAAuB;EACvB,kBAAkB;AACpB","sourcesContent":["#snackbar-container {\r\n  display: flex;\r\n  flex-direction: column-reverse;\r\n  width: 300px;\r\n  position: absolute;\r\n  bottom: 10px;\r\n  left: 50%;\r\n  transform: translate(-50%, 0%);\r\n}\r\n\r\n.snackbar-item {\r\n  width: 250px;\r\n  height: 28px;\r\n  background-color: black;\r\n  color: aliceblue;\r\n  font-size: 13px;\r\n  position: relative;\r\n  text-align: center;\r\n  margin: 4px;\r\n\r\n  animation: show 2s;\r\n}\r\n\r\n@keyframes show {\r\n  0% {\r\n    opacity: 0%;\r\n    top: 30px;\r\n  }\r\n\r\n  100% {\r\n    top: 0;\r\n  }\r\n}\r\n\r\n.disappear {\r\n  animation: test 2s;\r\n}\r\n\r\n@keyframes test {\r\n  0% {\r\n    top: 0;\r\n  }\r\n\r\n  100% {\r\n    opacity: 0%;\r\n    top: 30px;\r\n  }\r\n}\r\n\r\n.snackbar-rollback-button {\r\n  background-color: transparent;\r\n  color: rgb(166, 234, 255);\r\n  border: none;\r\n  font-size: 12px;\r\n  margin-left: 5px;\r\n}\r\n\r\n.snackbar-close-button {\r\n  color: aliceblue;\r\n  width: 12px;\r\n  height: 12px;\r\n  border: none;\r\n  background-color: transparent;\r\n}\r\n\r\n.snackbar-close-button:after {\r\n  content: '\\00d7';\r\n  font-size: 12pt;\r\n}\r\n\r\n.snackbar-close-button:active {\r\n  background-color: black;\r\n  border-radius: 50%;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1607,6 +1637,52 @@ function _asyncToGenerator(fn) {
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime/helpers/esm/classApplyDescriptorGet.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/classApplyDescriptorGet.js ***!
+  \****************************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ _classApplyDescriptorGet)
+/* harmony export */ });
+function _classApplyDescriptorGet(receiver, descriptor) {
+  if (descriptor.get) {
+    return descriptor.get.call(receiver);
+  }
+
+  return descriptor.value;
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/esm/classApplyDescriptorSet.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/classApplyDescriptorSet.js ***!
+  \****************************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ _classApplyDescriptorSet)
+/* harmony export */ });
+function _classApplyDescriptorSet(receiver, descriptor, value) {
+  if (descriptor.set) {
+    descriptor.set.call(receiver, value);
+  } else {
+    if (!descriptor.writable) {
+      throw new TypeError("attempted to set read only private field");
+    }
+
+    descriptor.value = value;
+  }
+}
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js":
 /*!*******************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/esm/classCallCheck.js ***!
@@ -1622,6 +1698,72 @@ function _classCallCheck(instance, Constructor) {
   if (!(instance instanceof Constructor)) {
     throw new TypeError("Cannot call a class as a function");
   }
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/esm/classExtractFieldDescriptor.js":
+/*!********************************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/classExtractFieldDescriptor.js ***!
+  \********************************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ _classExtractFieldDescriptor)
+/* harmony export */ });
+function _classExtractFieldDescriptor(receiver, privateMap, action) {
+  if (!privateMap.has(receiver)) {
+    throw new TypeError("attempted to " + action + " private field on non-instance");
+  }
+
+  return privateMap.get(receiver);
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/esm/classPrivateFieldGet.js":
+/*!*************************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/classPrivateFieldGet.js ***!
+  \*************************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ _classPrivateFieldGet)
+/* harmony export */ });
+/* harmony import */ var _classApplyDescriptorGet_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./classApplyDescriptorGet.js */ "./node_modules/@babel/runtime/helpers/esm/classApplyDescriptorGet.js");
+/* harmony import */ var _classExtractFieldDescriptor_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./classExtractFieldDescriptor.js */ "./node_modules/@babel/runtime/helpers/esm/classExtractFieldDescriptor.js");
+
+
+function _classPrivateFieldGet(receiver, privateMap) {
+  var descriptor = (0,_classExtractFieldDescriptor_js__WEBPACK_IMPORTED_MODULE_1__["default"])(receiver, privateMap, "get");
+  return (0,_classApplyDescriptorGet_js__WEBPACK_IMPORTED_MODULE_0__["default"])(receiver, descriptor);
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/esm/classPrivateFieldSet.js":
+/*!*************************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/classPrivateFieldSet.js ***!
+  \*************************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ _classPrivateFieldSet)
+/* harmony export */ });
+/* harmony import */ var _classApplyDescriptorSet_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./classApplyDescriptorSet.js */ "./node_modules/@babel/runtime/helpers/esm/classApplyDescriptorSet.js");
+/* harmony import */ var _classExtractFieldDescriptor_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./classExtractFieldDescriptor.js */ "./node_modules/@babel/runtime/helpers/esm/classExtractFieldDescriptor.js");
+
+
+function _classPrivateFieldSet(receiver, privateMap, value) {
+  var descriptor = (0,_classExtractFieldDescriptor_js__WEBPACK_IMPORTED_MODULE_1__["default"])(receiver, privateMap, "set");
+  (0,_classApplyDescriptorSet_js__WEBPACK_IMPORTED_MODULE_0__["default"])(receiver, descriptor, value);
+  return value;
 }
 
 /***/ }),
@@ -1930,9 +2072,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
 /* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
 /* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
-/* harmony import */ var _utils_localStorage_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../utils/localStorage.js */ "./src/js/utils/localStorage.js");
-/* harmony import */ var _utils_templates_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../utils/templates.js */ "./src/js/utils/templates.js");
-/* harmony import */ var _model_Classroom_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../model/Classroom.js */ "./src/js/model/Classroom.js");
+/* harmony import */ var _utils_templates_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../utils/templates.js */ "./src/js/utils/templates.js");
+/* harmony import */ var _model_Classroom_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../model/Classroom.js */ "./src/js/model/Classroom.js");
+/* harmony import */ var _utils_common_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../utils/common.js */ "./src/js/utils/common.js");
 
 
 
@@ -1956,12 +2098,12 @@ var ClassroomView = /*#__PURE__*/function () {
 
               _this.highlightNavButtons(_this.willSeeVideoButton);
 
-              _this.classroom.videoList = (0,_utils_localStorage_js__WEBPACK_IMPORTED_MODULE_5__.getVideoItemsFromLocalStorage)();
+              _this.classroom.getVideoItems();
 
               _this.renderContents('watchLater');
 
               if (_this.classroom.hasNoWillSeeVideo()) {
-                _this.contentsContainer.insertAdjacentHTML('beforeend', (0,_utils_templates_js__WEBPACK_IMPORTED_MODULE_6__.noClassroomContentsTemplate)());
+                _this.contentsContainer.insertAdjacentHTML('beforeend', (0,_utils_templates_js__WEBPACK_IMPORTED_MODULE_5__.noClassroomContentsTemplate)());
               }
 
             case 5:
@@ -1977,36 +2119,103 @@ var ClassroomView = /*#__PURE__*/function () {
 
       _this.highlightNavButtons(_this.alreadyWatchedVideoButton);
 
-      _this.classroom.videoList = (0,_utils_localStorage_js__WEBPACK_IMPORTED_MODULE_5__.getVideoItemsFromLocalStorage)();
+      _this.classroom.getVideoItems();
 
       _this.renderContents('alreadyWatched');
 
       if (_this.classroom.hasNoAlreadyWatchVideo()) {
-        _this.contentsContainer.insertAdjacentHTML('beforeend', (0,_utils_templates_js__WEBPACK_IMPORTED_MODULE_6__.noClassroomContentsTemplate)());
+        _this.contentsContainer.insertAdjacentHTML('beforeend', (0,_utils_templates_js__WEBPACK_IMPORTED_MODULE_5__.noClassroomContentsTemplate)());
       }
     });
 
     (0,_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_3__["default"])(this, "handleContentsButton", function (e) {
       if (e.target.classList.contains('already-watch-button')) {
-        _this.moveVideoCardToAlreadyWatchVideo(e);
+        _this.addSnackBar(e);
+
+        _this.toggleAlreadyWatchButton(e);
       }
 
       if (e.target.classList.contains('discard-button')) {
+        _this.addSnackBar(e);
+
         _this.discardVideoCard(e);
       }
     });
 
+    (0,_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_3__["default"])(this, "handleSnackBar", /*#__PURE__*/function () {
+      var _ref2 = (0,_babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_4__.mark(function _callee2(e) {
+        var rollbackItem;
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_4__.wrap(function _callee2$(_context2) {
+          while (1) {
+            switch (_context2.prev = _context2.next) {
+              case 0:
+                if (!e.target.classList.contains('snackbar-close-button')) {
+                  _context2.next = 5;
+                  break;
+                }
+
+                e.target.parentNode.classList.add('disappear');
+                _context2.next = 4;
+                return (0,_utils_common_js__WEBPACK_IMPORTED_MODULE_7__.delay)(2000);
+
+              case 4:
+                e.target.parentNode.remove();
+
+              case 5:
+                if (e.target.classList.contains('snackbar-rollback-button')) {
+                  rollbackItem = _this.classroom.cache[e.target.parentNode.id];
+
+                  if (!rollbackItem.removed) {
+                    if (rollbackItem.watchLater) {
+                      _this.classroom.moveVideoToWillSeeVideoById(rollbackItem);
+                    }
+
+                    if (!rollbackItem.watchLater) {
+                      _this.classroom.moveVideoToAlreadyWatchedVideoById(rollbackItem);
+                    }
+                  }
+
+                  if (rollbackItem.removed) {
+                    delete rollbackItem.removed;
+
+                    _this.classroom.saveVideoToVideoList(rollbackItem);
+                  }
+
+                  _this.clearClassroomContentsContainer();
+
+                  _this.classroom.getVideoItems();
+
+                  _this.renderContents(rollbackItem.watchLater ? 'watchLater' : 'alreadyWatched');
+
+                  e.target.parentNode.remove();
+                }
+
+              case 6:
+              case "end":
+                return _context2.stop();
+            }
+          }
+        }, _callee2);
+      }));
+
+      return function (_x) {
+        return _ref2.apply(this, arguments);
+      };
+    }());
+
     this.props = props;
-    this.classroom = new _model_Classroom_js__WEBPACK_IMPORTED_MODULE_7__.Classroom();
+    this.classroom = new _model_Classroom_js__WEBPACK_IMPORTED_MODULE_6__.Classroom();
     this.openModalButton = document.getElementById('search-modal-button');
     this.openModalButton.addEventListener('click', this.props.openModal);
     this.nav = document.getElementById('nav');
     this.contentsContainer = document.getElementById('classroom-contents-container');
     this.willSeeVideoButton = document.getElementById('will-see-video-button');
     this.alreadyWatchedVideoButton = document.getElementById('already-watched-video-button');
+    this.snackbarContainer = document.getElementById('snackbar-container');
     this.contentsContainer.addEventListener('click', this.handleContentsButton);
     this.willSeeVideoButton.addEventListener('click', this.handleWillSeeVideoNav);
     this.alreadyWatchedVideoButton.addEventListener('click', this.handleAlreadyWatchedVideoNav);
+    this.handleWillSeeVideoNav();
   }
 
   (0,_babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(ClassroomView, [{
@@ -2015,7 +2224,7 @@ var ClassroomView = /*#__PURE__*/function () {
       var later = key === 'watchLater' ? true : false;
       this.contentsContainer.insertAdjacentHTML('beforeend', this.classroom.videoList.map(function (video) {
         if (video.watchLater === later) {
-          return (0,_utils_templates_js__WEBPACK_IMPORTED_MODULE_6__.makeThumbnailTemplate)(video);
+          return (0,_utils_templates_js__WEBPACK_IMPORTED_MODULE_5__.makeThumbnailTemplate)(video);
         }
       }).join(''));
     }
@@ -2025,26 +2234,61 @@ var ClassroomView = /*#__PURE__*/function () {
       this.contentsContainer.innerHTML = "";
     }
   }, {
+    key: "addSnackBar",
+    value: function addSnackBar(e) {
+      this.renderSnackBar(e);
+      this.snackbarContainer.addEventListener('click', this.handleSnackBar);
+    }
+  }, {
+    key: "renderSnackBar",
+    value: function renderSnackBar(e) {
+      if (e.target.classList.contains('already-watch-button')) {
+        if (e.target.classList.contains('clicked')) {
+          this.snackbarContainer.insertAdjacentHTML('afterbegin', (0,_utils_templates_js__WEBPACK_IMPORTED_MODULE_5__.makeSnackbarThumbnailTemplate)(e, '볼 영상으로 이동했습니다.'));
+        } else {
+          this.snackbarContainer.insertAdjacentHTML('afterbegin', (0,_utils_templates_js__WEBPACK_IMPORTED_MODULE_5__.makeSnackbarThumbnailTemplate)(e, '본 영상으로 이동했습니다.'));
+        }
+
+        return true;
+      }
+
+      if (e.target.classList.contains('discard-button')) {
+        this.snackbarContainer.insertAdjacentHTML('afterbegin', (0,_utils_templates_js__WEBPACK_IMPORTED_MODULE_5__.makeSnackbarThumbnailTemplate)(e, '영상을 삭제했습니다.'));
+        return true;
+      }
+
+      return false;
+    }
+  }, {
+    key: "toggleAlreadyWatchButton",
+    value: function toggleAlreadyWatchButton(e) {
+      this.classroom.saveExecutionToCache(e.target);
+
+      if (e.target.classList.contains('clicked')) {
+        this.moveVideoCardToWillSeeVideo(e);
+        return;
+      }
+
+      this.moveVideoCardToAlreadyWatchVideo(e);
+    }
+  }, {
+    key: "moveVideoCardToWillSeeVideo",
+    value: function moveVideoCardToWillSeeVideo(e) {
+      this.classroom.moveVideoToWillSeeVideoById(e.target);
+      e.target.parentNode.parentNode.remove();
+    }
+  }, {
     key: "moveVideoCardToAlreadyWatchVideo",
     value: function moveVideoCardToAlreadyWatchVideo(e) {
-      this.classroom.videoList.forEach(function (video) {
-        if (e.target.id === video.id) {
-          video.watchLater = false;
-          e.target.parentNode.parentNode.remove();
-        }
-      });
-      (0,_utils_localStorage_js__WEBPACK_IMPORTED_MODULE_5__.saveVideoItemToLocalStorage)(this.classroom.videoList);
+      this.classroom.moveVideoToAlreadyWatchedVideoById(e.target);
+      e.target.parentNode.parentNode.remove();
     }
   }, {
     key: "discardVideoCard",
     value: function discardVideoCard(e) {
-      if (window.confirm('진짜 지우실?')) {
-        this.classroom.videoList = this.classroom.videoList.filter(function (video) {
-          return video.id !== e.target.id;
-        });
-        e.target.parentNode.parentNode.remove();
-        (0,_utils_localStorage_js__WEBPACK_IMPORTED_MODULE_5__.saveVideoItemToLocalStorage)(this.classroom.videoList);
-      }
+      this.classroom.saveExecutionToCache(e.target);
+      this.classroom.removeVideoItemByVideoId(e.target);
+      e.target.parentNode.parentNode.remove();
     }
   }, {
     key: "highlightNavButtons",
@@ -2106,9 +2350,9 @@ var SearchModalView = /*#__PURE__*/function () {
     (0,_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_5__["default"])(this, "handleSearchButton", function () {
       _this.initVideoList();
 
-      _this.searchModal.keyword = _this.searchInputKeyword.value;
+      _this.searchModal.setKeyword(_this.searchInputKeyword.value);
 
-      _this.getDataMatchKeyword(_this.searchModal.keyword);
+      _this.getDataMatchKeyword();
     });
 
     (0,_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_5__["default"])(this, "handleVideoItemSave", function (e) {
@@ -2174,32 +2418,31 @@ var SearchModalView = /*#__PURE__*/function () {
   }, {
     key: "getDataMatchKeyword",
     value: function () {
-      var _getDataMatchKeyword = (0,_babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_2__["default"])( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_6__.mark(function _callee(keyword) {
+      var _getDataMatchKeyword = (0,_babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_2__["default"])( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_6__.mark(function _callee() {
         return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_6__.wrap(function _callee$(_context) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
                 this.renderSkeleton();
                 _context.next = 3;
-                return (0,_utils_apiFetch_js__WEBPACK_IMPORTED_MODULE_7__.fetchDataFromKeyword)(keyword);
+                return this.searchModal.searchVideos();
 
               case 3:
-                this.searchModal.videos = _context.sent;
                 this.removeSkeleton();
 
                 if (!this.searchModal.hasNoVideoItems()) {
-                  _context.next = 8;
+                  _context.next = 7;
                   break;
                 }
 
                 this.renderNoVideosImg();
                 return _context.abrupt("return");
 
-              case 8:
+              case 7:
                 this.renderThumbnail(this.searchModal.videoItemObjects());
                 this.createObserver();
 
-              case 10:
+              case 9:
               case "end":
                 return _context.stop();
             }
@@ -2207,7 +2450,7 @@ var SearchModalView = /*#__PURE__*/function () {
         }, _callee, this);
       }));
 
-      function getDataMatchKeyword(_x) {
+      function getDataMatchKeyword() {
         return _getDataMatchKeyword.apply(this, arguments);
       }
 
@@ -2277,15 +2520,14 @@ var SearchModalView = /*#__PURE__*/function () {
                 this.removePreviousObserver();
                 this.renderSkeleton();
                 _context2.next = 4;
-                return (0,_utils_apiFetch_js__WEBPACK_IMPORTED_MODULE_7__.fetchDataFromKeyword)(this.searchModal.keyword, this.searchModal.videos.nextPageToken);
+                return this.searchModal.searchNextPageVideos();
 
               case 4:
-                this.searchModal.videos = _context2.sent;
                 this.removeSkeleton();
                 this.renderThumbnail(this.searchModal.videoItemObjects());
                 this.createObserver();
 
-              case 8:
+              case 7:
               case "end":
                 return _context2.stop();
             }
@@ -2356,28 +2598,108 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
 /* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/classPrivateFieldGet */ "./node_modules/@babel/runtime/helpers/esm/classPrivateFieldGet.js");
+/* harmony import */ var _utils_localStorage_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../utils/localStorage.js */ "./src/js/utils/localStorage.js");
 
+
+
+
+function _classPrivateFieldInitSpec(obj, privateMap, value) { _checkPrivateRedeclaration(obj, privateMap); privateMap.set(obj, value); }
+
+function _checkPrivateRedeclaration(obj, privateCollection) { if (privateCollection.has(obj)) { throw new TypeError("Cannot initialize the same private elements twice on an object"); } }
+
+
+
+var _videoList = /*#__PURE__*/new WeakMap();
 
 var Classroom = /*#__PURE__*/function () {
   function Classroom() {
     (0,_babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Classroom);
 
-    this.videoList;
+    _classPrivateFieldInitSpec(this, _videoList, {
+      writable: true,
+      value: void 0
+    });
+
+    (0,_babel_runtime_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_2__["default"])(this, _videoList);
+
+    this.cache = {};
   }
 
   (0,_babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Classroom, [{
+    key: "getVideoItems",
+    value: function getVideoItems() {
+      this.videoList = (0,_utils_localStorage_js__WEBPACK_IMPORTED_MODULE_3__.getVideoItemsFromLocalStorage)();
+    }
+  }, {
+    key: "saveClassroomToLocalStorage",
+    value: function saveClassroomToLocalStorage() {
+      (0,_utils_localStorage_js__WEBPACK_IMPORTED_MODULE_3__.saveVideoItemToLocalStorage)(this.videoList);
+    }
+  }, {
+    key: "saveVideoToVideoList",
+    value: function saveVideoToVideoList(video) {
+      this.videoList.push(video);
+      this.saveClassroomToLocalStorage();
+    }
+  }, {
+    key: "removeVideoItemByVideoId",
+    value: function removeVideoItemByVideoId(target) {
+      this.videoList = this.videoList.filter(function (video) {
+        return video.id !== target.id;
+      });
+      this.saveClassroomToLocalStorage();
+    }
+  }, {
+    key: "moveVideoToWillSeeVideoById",
+    value: function moveVideoToWillSeeVideoById(target) {
+      this.videoList.forEach(function (video) {
+        if (target.id === video.id) {
+          video.watchLater = true;
+        }
+      });
+      this.saveClassroomToLocalStorage();
+    }
+  }, {
+    key: "moveVideoToAlreadyWatchedVideoById",
+    value: function moveVideoToAlreadyWatchedVideoById(target) {
+      this.videoList.forEach(function (video) {
+        if (target.id === video.id) {
+          video.watchLater = false;
+        }
+      });
+      this.saveClassroomToLocalStorage();
+    }
+  }, {
+    key: "saveExecutionToCache",
+    value: function saveExecutionToCache(target) {
+      this.cache[target.id] = {
+        title: target.parentNode.parentNode.childNodes[3].innerText,
+        channelName: target.parentNode.parentNode.childNodes[5].innerText,
+        publishedDate: target.parentNode.parentNode.childNodes[7].innerText,
+        id: target.id,
+        watchLater: !target.parentNode.childNodes[1].classList.contains('clicked'),
+        removed: target.classList.contains('discard-button')
+      };
+    }
+  }, {
+    key: "rollbackExecution",
+    value: function rollbackExecution(target) {
+      this.cache[target.id];
+    }
+  }, {
     key: "hasNoWillSeeVideo",
     value: function hasNoWillSeeVideo() {
-      return this.videoList.filter(function (video) {
+      return !this.videoList.some(function (video) {
         return video.watchLater === true;
-      }).length === 0;
+      });
     }
   }, {
     key: "hasNoAlreadyWatchVideo",
     value: function hasNoAlreadyWatchVideo() {
-      return this.videoList.filter(function (video) {
+      return !this.videoList.some(function (video) {
         return video.watchLater === false;
-      }).length === 0;
+      });
     }
   }]);
 
@@ -2397,21 +2719,113 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "SearchModal": () => (/* binding */ SearchModal)
 /* harmony export */ });
-/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
-/* harmony import */ var _utils_common_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../utils/common.js */ "./src/js/utils/common.js");
+/* harmony import */ var _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/asyncToGenerator */ "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js");
+/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/classPrivateFieldSet */ "./node_modules/@babel/runtime/helpers/esm/classPrivateFieldSet.js");
+/* harmony import */ var _babel_runtime_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/classPrivateFieldGet */ "./node_modules/@babel/runtime/helpers/esm/classPrivateFieldGet.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var _utils_common_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../utils/common.js */ "./src/js/utils/common.js");
+/* harmony import */ var _utils_apiFetch_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../utils/apiFetch.js */ "./src/js/utils/apiFetch.js");
 
 
+
+
+
+
+
+function _classPrivateFieldInitSpec(obj, privateMap, value) { _checkPrivateRedeclaration(obj, privateMap); privateMap.set(obj, value); }
+
+function _checkPrivateRedeclaration(obj, privateCollection) { if (privateCollection.has(obj)) { throw new TypeError("Cannot initialize the same private elements twice on an object"); } }
+
+
+
+
+var _videos = /*#__PURE__*/new WeakMap();
+
+var _keyword = /*#__PURE__*/new WeakMap();
 
 var SearchModal = /*#__PURE__*/function () {
   function SearchModal() {
-    (0,_babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, SearchModal);
+    (0,_babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, SearchModal);
 
-    this.keyword;
-    this.videos = {};
+    _classPrivateFieldInitSpec(this, _videos, {
+      writable: true,
+      value: void 0
+    });
+
+    _classPrivateFieldInitSpec(this, _keyword, {
+      writable: true,
+      value: void 0
+    });
+
+    (0,_babel_runtime_helpers_classPrivateFieldGet__WEBPACK_IMPORTED_MODULE_4__["default"])(this, _keyword);
+
+    (0,_babel_runtime_helpers_classPrivateFieldSet__WEBPACK_IMPORTED_MODULE_3__["default"])(this, _videos, {});
   }
 
-  (0,_babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(SearchModal, [{
+  (0,_babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(SearchModal, [{
+    key: "setKeyword",
+    value: function setKeyword(keyword) {
+      this.keyword = keyword;
+    }
+  }, {
+    key: "searchVideos",
+    value: function () {
+      var _searchVideos = (0,_babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_5__.mark(function _callee() {
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_5__.wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                _context.next = 2;
+                return (0,_utils_apiFetch_js__WEBPACK_IMPORTED_MODULE_7__.fetchDataFromKeyword)(this.keyword);
+
+              case 2:
+                this.videos = _context.sent;
+
+              case 3:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee, this);
+      }));
+
+      function searchVideos() {
+        return _searchVideos.apply(this, arguments);
+      }
+
+      return searchVideos;
+    }()
+  }, {
+    key: "searchNextPageVideos",
+    value: function () {
+      var _searchNextPageVideos = (0,_babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_0__["default"])( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_5__.mark(function _callee2() {
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_5__.wrap(function _callee2$(_context2) {
+          while (1) {
+            switch (_context2.prev = _context2.next) {
+              case 0:
+                _context2.next = 2;
+                return (0,_utils_apiFetch_js__WEBPACK_IMPORTED_MODULE_7__.fetchDataFromKeyword)(this.keyword, this.videos.nextPageToken);
+
+              case 2:
+                this.videos = _context2.sent;
+
+              case 3:
+              case "end":
+                return _context2.stop();
+            }
+          }
+        }, _callee2, this);
+      }));
+
+      function searchNextPageVideos() {
+        return _searchNextPageVideos.apply(this, arguments);
+      }
+
+      return searchNextPageVideos;
+    }()
+  }, {
     key: "hasNoVideoItems",
     value: function hasNoVideoItems() {
       return this.videos.items.length === 0;
@@ -2423,7 +2837,7 @@ var SearchModal = /*#__PURE__*/function () {
         return {
           title: video.snippet.title,
           channelName: video.snippet.channelTitle,
-          publishedDate: (0,_utils_common_js__WEBPACK_IMPORTED_MODULE_2__.changeDateFormat)(video.snippet.publishedAt),
+          publishedDate: (0,_utils_common_js__WEBPACK_IMPORTED_MODULE_6__.changeDateFormat)(video.snippet.publishedAt),
           id: video.id.videoId
         };
       });
@@ -2522,11 +2936,17 @@ var fetchDataFromKeyword = /*#__PURE__*/function () {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "changeDateFormat": () => (/* binding */ changeDateFormat)
+/* harmony export */   "changeDateFormat": () => (/* binding */ changeDateFormat),
+/* harmony export */   "delay": () => (/* binding */ delay)
 /* harmony export */ });
 var changeDateFormat = function changeDateFormat(date) {
   var d = new Date(date);
   return "".concat(d.getFullYear(), "\uB144 ").concat(d.getMonth() + 1, "\uC6D4 ").concat(d.getDate(), "\uC77C");
+};
+var delay = function delay(ms) {
+  return new Promise(function (resolve) {
+    return setTimeout(resolve, ms);
+  });
 };
 
 /***/ }),
@@ -2578,6 +2998,7 @@ var getVideoItemsFromLocalStorage = function getVideoItemsFromLocalStorage() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "makeSkeletonTemplate": () => (/* binding */ makeSkeletonTemplate),
+/* harmony export */   "makeSnackbarThumbnailTemplate": () => (/* binding */ makeSnackbarThumbnailTemplate),
 /* harmony export */   "makeThumbnailTemplate": () => (/* binding */ makeThumbnailTemplate),
 /* harmony export */   "noClassroomContentsTemplate": () => (/* binding */ noClassroomContentsTemplate),
 /* harmony export */   "noSearchResultTemplate": () => (/* binding */ noSearchResultTemplate)
@@ -2588,13 +3009,16 @@ var noSearchResultTemplate = function noSearchResultTemplate() {
   return "<div class=\"no-result\">\n    <img src=".concat(_assets_images_not_found_png__WEBPACK_IMPORTED_MODULE_0__["default"], " class = 'no-result__image' alt=\"\uC5C6\uC74C\" />\n    <p class=\"no-result__description\">\n            \uAC80\uC0C9 \uACB0\uACFC\uAC00 \uC5C6\uC2B5\uB2C8\uB2E4<br/>\n            \uB2E4\uB978 \uD0A4\uC6CC\uB4DC\uB85C \uAC80\uC0C9\uD574\uBCF4\uC138\uC694\n          </p></div>");
 };
 var makeThumbnailTemplate = function makeThumbnailTemplate(video, exist) {
-  return "\n    <li class='video-item-container'>\n      <img\n        src=\"https://img.youtube.com/vi/".concat(video.id, "/0.jpg\"\n        alt=\"video-item-thumbnail\" class=\"video-item\">\n      <h4 class=\"video-item__title\">").concat(video.title, "</h4>\n      <p class=\"video-item__channel-name\">").concat(video.channelName, "</p>\n      <p class=\"video-item__published-date\">").concat(video.publishedDate, "</p>\n      <div class = 'button-container'>\n        <button id=\"").concat(video.id, "\" class=\"already-watch-button button\" ").concat(video.watchLater ? '' : 'hidden', ">\u2705</button>\n        <button id=\"").concat(video.id, "\" class=\"discard-button button\" \n        ").concat(typeof video.watchLater !== 'undefined' ? '' : 'hidden', ">\uD83D\uDDD1\uFE0F</button>\n        <button id=\"").concat(video.id, "\" class=\"video-item__save-button button\" \n          ").concat(exist === 'exist' ? 'hidden' : '', " \n          ").concat(typeof video.watchLater === 'undefined' ? '' : 'hidden', ">\u2B07 \uC800\uC7A5</button>\n      </div>\n  </li>");
+  return "\n    <li class='video-item-container'>\n      <img\n        src=\"https://img.youtube.com/vi/".concat(video.id, "/0.jpg\"\n        alt=\"video-item-thumbnail\" class=\"video-item\">\n      <h4 class=\"video-item__title\">").concat(video.title, "</h4>\n      <p class=\"video-item__channel-name\">").concat(video.channelName, "</p>\n      <p class=\"video-item__published-date\">").concat(video.publishedDate, "</p>\n      <div class = 'button-container'>\n        <button id=\"").concat(video.id, "\" class=\" already-watch-button button ").concat(video.watchLater ? '' : 'clicked', "\" \n        ").concat(typeof video.watchLater === 'undefined' ? 'hidden' : '', ">\u2705</button>\n        <button id=\"").concat(video.id, "\" class=\"discard-button button\" \n        ").concat(typeof video.watchLater === 'undefined' ? 'hidden' : '', ">\uD83D\uDDD1\uFE0F</button>\n        <button id=\"").concat(video.id, "\" class=\"video-item__save-button button\" \n          ").concat(exist === 'exist' ? 'hidden' : '', " \n          ").concat(typeof video.watchLater === 'undefined' ? '' : 'hidden', ">\u2B07 \uC800\uC7A5</button>\n      </div>\n  </li>");
 };
 var makeSkeletonTemplate = function makeSkeletonTemplate() {
   return "\n  <div class=\"skeleton\">\n    <div class=\"image\"></div>\n    <p class=\"line title\"></p>\n    <p class=\"line channel-name\"></p>\n    <p class=\"line pblsh-date\"></p>\n    <p class=\"skeleton-button\"></p>\n  </div>\n    ";
 };
 var noClassroomContentsTemplate = function noClassroomContentsTemplate() {
   return "<div>\n  \u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2584\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\n  \u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2584\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591<br>\n  \u2591\u2591\u2591  No Video !!! \u2591\u2591\u2591\u2584\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\n  \u2584\u2584\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2584\u2584\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\n  \u2591\u2591\u2584\u2584\u2584\u2584\u2591\u2591\u2584\u2584\u2591\u2591\u2591\u2591\u2591\u2591\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\n  \u2591\u2591\u2591\u2591\u2591\u2591\u2584\u2584\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2580\u2584\u2584\u2584\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\n  \u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2584\u2591\u2591\u2584\u2584\u2584\u2584\u2580\u2580\u2591\u2584\u2584\u2591\u2591\u2591\u2591\u2591\u2591\u2580\u2584\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\n  \u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2584\u2580\u2591\u2591\u2591\u2591\u2591\u2591\u2588\u2591\u2591\u2591\u2584\u2580\u2591\u2591\u2591\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\n  \u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2584\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2588\u2584\u2591\u2591\u2591\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\n  \u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2580\u2580\u2584\u2591\u2591\u2591\u2591\u2591\u2584\u2584\u2591\u2591\u2591\u2591\u2588\u2584\u2584\u2580\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\n  \u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2580\u2580\u2580\u2580\u2580\u2591\u2588\u2591\u2591\u2584\u2580\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\n  \u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2588\u2580\u2580\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\n  \u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2588\u2591\u2591\u2591\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\n  \u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2584\u2580\u2584\u2591\u2584\u2588\u2591\u2584\u2591\u2580\u2584\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\n  \u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2588\u2591\u2591\u2584\u2580\u2591\u2591\u2588\u2580\u2584\u2591\u2591\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\n  \u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2588\u2591\u2591\u2588\u2591\u2591\u2591\u2588\u2584\u2584\u2588\u2580\u2588\u2584\u2584\u2584\u2591\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\n  \u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2580\u2584\u2584\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2588\u2584\u2584\u2584\u2580\u2580\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\n  \u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2580\u2580\u2580\u2580\u2580\u2580\u2580\u2580\u2580\u2580\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\n  \u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591</div>";
+};
+var makeSnackbarThumbnailTemplate = function makeSnackbarThumbnailTemplate(e, comment) {
+  return "\n  <div id = ".concat(e.target.id, " class=\"snackbar-item\">\n    <span>").concat(comment, "</span>\n    <button class = \"snackbar-rollback-button\" type=\"submit\">\uC2E4\uD589\uCDE8\uC18C</button>\n    <button class = \"snackbar-close-button\" type=\"submit\"></button>\n  </div>");
 };
 
 /***/ })
