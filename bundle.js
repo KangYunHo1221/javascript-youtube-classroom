@@ -2051,7 +2051,9 @@ var App = /*#__PURE__*/(0,_babel_runtime_helpers_createClass__WEBPACK_IMPORTED_M
   this.classroom = new _ClassroomView_js__WEBPACK_IMPORTED_MODULE_3__.ClassroomView({
     openModal: this.openModal
   });
-  this.searchModal = new _SearchModalView_js__WEBPACK_IMPORTED_MODULE_4__.SearchModalView();
+  this.searchModal = new _SearchModalView_js__WEBPACK_IMPORTED_MODULE_4__.SearchModalView({
+    closeModal: this.classroom.handleWillSeeVideoNav
+  });
 });
 
 /***/ }),
@@ -2342,7 +2344,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var SearchModalView = /*#__PURE__*/function () {
-  function SearchModalView() {
+  function SearchModalView(props) {
     var _this = this;
 
     (0,_babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_3__["default"])(this, SearchModalView);
@@ -2374,6 +2376,8 @@ var SearchModalView = /*#__PURE__*/function () {
 
     (0,_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_5__["default"])(this, "handleCloseButton", function () {
       _this.modalContainer.classList.add('hide');
+
+      _this.props.closeModal();
     });
 
     (0,_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_5__["default"])(this, "handleEnterKeyEvent", function (event) {
@@ -2386,6 +2390,7 @@ var SearchModalView = /*#__PURE__*/function () {
       _this.searchInputKeyword.value = '';
     });
 
+    this.props = props;
     this.searchModal = new _model_SearchModal_js__WEBPACK_IMPORTED_MODULE_11__.SearchModal();
     this.modalContainer = document.getElementById('modal-container');
     this.searchInputKeyword = document.getElementById('search-input-keyword');
